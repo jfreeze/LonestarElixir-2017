@@ -37,9 +37,8 @@
       <img src="/images/rectangle-logohdpi.png">
     </div>
 
-    <main role="main">
-      <%= render @view_module, @view_template, assigns %>
-    </main>
+    <%= render @view_module, @view_template, assigns %>
+    <%= render Lonestarelixir.PageView, "footer.html" %>
 
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
   </body>

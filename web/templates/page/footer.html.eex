@@ -1,0 +1,30 @@
+  <div class="footer">
+    <div class="content">
+      <div class="gridrow">
+        <div class="offset-by-one-fourth one-fourth column">
+          &nbsp;
+        </div>
+
+        <div class="offset-by-one-fourth one-fourth column">
+          <p>
+            <a href="http://elixir-lang.org">Elixir</a>
+            <br>
+            <a href="http://phoenixframework.org">Phoenix Framework</a>
+          </p>
+        </div>
+        <div class="one-fourth column">
+          <p>
+            <a href="/coc#contact">Contact Information</a>
+            <br>
+            <a href="/coc">Code of Conduct</a>
+          </p>
+        </div>
+      </div>
+
+      <p class="center">
+        <br>
+        An <a href="http://elixirconf.com">ElixirConf</a> Production
+        - Copyright &copy; 2016
+      </p>
+
+    </div>
