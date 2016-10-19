@@ -2,45 +2,55 @@
   <div class="content">
     <p>
       Welcome to the premiere Regional Elixir and Phoenix conference in
-      Austin, TX, February 10-11.
+      <strong>Austin, TX, February 10-11</strong>.
     </p>
 
     <p>
       Lonestar Elixir Conf is a conference for Elixir, OTP, Web and
-      Embedded developers. Focused on advancing the Elixir programming
-      language and the communities surrounding it,
+      Embedded developers. Our focus is on advancing the
+      Elixir programming language and the communities surrounding it.
       Lonestar ElixirConf brings together developers, from novice to
       experienced, to discuss, collaborate, and socialize.
     </p>
 
     <p>
-      The conference will host a single-track of speakers,
-      and will include 12 speakers, 3 keynote speakers
-      and a lightning talk session.
+      The inaugural conference will host a single-track of speakers,
+      including 12 speakers, 3 keynote speakers, and a lightning
+      talk session.
     </p>
     <p>
-      The conference will also host an after party and social
-      so you can meet others in the Elixir community in
-      a relaxed setting.
+      Come for the Elixir knowledge and stay for the parties
+      and social mixing of Elixir enthusiasts.
     </p>
 
     <h1 class="main">CALL FOR PROPOSALS</h1>
     <p>
-      At the worlds best Texas Elixir conference, we are looking for
-      speakers with something interesting to say about Elixir,
+      In this open call for (speaking) proposals, ALL are welcome
+      to submit a proposal.
+      If you feel you have something to say about Elixir
+      (or Phoenix, or Nerves, or the BEAM, or anything Elixir related),
+      we want to hear from you,
       whether you are just beginning with Elixir or are an
       advanced Elixir developer.
     </p>
-    </p>
-      Please enter your information below.
+
+    <p>
+      <strong>Submission deadline is november 27, 2016.</strong>
+      Submit your talk proposal today!
     </p>
 
-      <h2 class="main"><a class="button hvr-fade hvr-skew"
-        href="https://goo.gl/forms/K6nvZ8v7Nx9OtUBl2">SUBMIT A TALK</a></h2>
+    <h2 class="main"><a class="button hvr-fade hvr-skew"
+      href="https://goo.gl/forms/K6nvZ8v7Nx9OtUBl2">SUBMIT A TALK</a></h2>
 
     <h1 class="main">REGISTER</h1>
     <p>
-      Get your ticket to Lonestar ElixirConf 2017!
+      Tickets are on sale now.
+      Purchase an <em>Elixir Advocate</em> ticket by buying
+      before the schedule is announced and save.
+    </p>
+    <p>
+      Get your ticket to Lonestar ElixirConf 2017
+      and enjoy two full days of Elixir goodness!
     </p>
 
     <h2 class="main"><a class="button hvr-fade hvr-skew"
@@ -132,16 +142,13 @@
 
         </div>
       </div>
-
-
     </div>
-
 
     <h1 class="main">HOTEL</h1>
     <img src="/images/2017/resources/hyatt-place.jpg">
     <h3 class="main">
       Hyatt Place Austin Arboretum
-    <h3>
+    </h3>
     <p>
       If you are visiting from out of town, we have arranged
       a great room for you at the Hyatt Place Austin Arboretum
@@ -187,8 +194,6 @@
       <br>
       (512) 451-5011
     </p>
-
-
 
   </div>
 

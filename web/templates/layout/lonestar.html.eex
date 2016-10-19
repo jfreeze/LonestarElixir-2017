@@ -24,7 +24,7 @@
   <body>
 
     <ul class="topnav" id="myTopnav">
-      <li><a href="/test">Home</a></li>
+      <li><a href="/">Home</a></li>
       <li><a href="https://goo.gl/forms/K6nvZ8v7Nx9OtUBl2">Submit a Talk</a></li>
       <li><a href="#register">Register</a></li>
       <li><a href="/coc">CoC</a></li>
