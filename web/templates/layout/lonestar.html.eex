@@ -25,8 +25,8 @@
 
     <ul class="topnav" id="myTopnav">
       <li><a href="/">Home</a></li>
-      <li><a href="https://goo.gl/forms/K6nvZ8v7Nx9OtUBl2">Submit a Talk</a></li>
-      <li><a href="#register">Register</a></li>
+      <li><a href="/#cfp">Submit a Talk</a></li>
+      <li><a href="/#register">Register</a></li>
       <li><a href="/coc">CoC</a></li>
       <li class="icon">
         <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>

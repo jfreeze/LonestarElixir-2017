@@ -23,7 +23,7 @@
       and social mixing of Elixir enthusiasts.
     </p>
 
-    <h1 class="main">CALL FOR PROPOSALS</h1>
+    <h1 id="cfp" class="main">CALL FOR PROPOSALS</h1>
     <p>
       In this open call for (speaking) proposals, ALL are welcome
       to submit a proposal.
@@ -42,7 +42,7 @@
     <h2 class="main"><a class="button hvr-fade hvr-skew"
       href="https://goo.gl/forms/K6nvZ8v7Nx9OtUBl2">SUBMIT A TALK</a></h2>
 
-    <h1 class="main">REGISTER</h1>
+    <h1 id="register" class="main">REGISTER</h1>
     <p>
       Tickets are on sale now.
       Purchase an <em>Elixir Advocate</em> ticket by buying
@@ -54,7 +54,7 @@
     </p>
 
     <h2 class="main"><a class="button hvr-fade hvr-skew"
-      href="https://goo.gl/forms/K6nvZ8v7Nx9OtUBl2">REGISTER NOW</a></h2>
+      href="https://ti.to/elixirconf/lonestar-elixirconf-2017">REGISTER NOW</a></h2>
 
     <table>
       <tr>
