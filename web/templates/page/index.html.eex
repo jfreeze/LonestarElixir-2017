@@ -35,7 +35,7 @@
     </p>
 
     <p>
-      <strong>Submission deadline is november 27, 2016.</strong>
+      <strong>Submission deadline is November 27, 2016.</strong>
       Submit your talk proposal today!
     </p>
 
@@ -54,7 +54,7 @@
     </p>
 
     <h2 class="main"><a class="button hvr-fade hvr-skew"
-      href="https://ti.to/elixirconf/lonestar-elixirconf-2017">REGISTER NOW</a></h2>
+      href="https://ti.to/elixirconf/lonestar-2017">REGISTER NOW</a></h2>
 
     <table>
       <tr>
@@ -144,7 +144,7 @@
       </div>
     </div>
 
-    <h1 class="main">HOTEL</h1>
+    <h1 id="hotel" class="main">HOTEL</h1>
     <img src="/images/2017/resources/hyatt-place.jpg">
     <h3 class="main">
       Hyatt Place Austin Arboretum
