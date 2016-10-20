@@ -17,7 +17,6 @@
 
 
     <title>Lonestar Elixir Conference 2017</title>
-    <!--<link rel="stylesheet" href="<%= static_path(@conn, "/css/normalize.css") %>"> -->
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
   </head>
 
