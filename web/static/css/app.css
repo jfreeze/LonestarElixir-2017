@@ -153,6 +153,45 @@ tr:nth-child(even) {
 }
 
 
+
+.cancellation {
+  font-size: 85%;
+  font-style: italic;
+}
+
+p {text-align: justify; }
+
+div.social {
+  font-size: 80%;
+  display: inline-block;
+  vertical-align: top;
+}
+a.twitter {
+  font-size: 85%;
+  display: inline-block;
+  font-family: "Helvetica Neue Pro", Helvetica, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  font: Helvetica;
+  letter-spacing: -.075em;
+}
+a.github {
+  font-size: 85%;
+  text-decoration: none;
+  color: black;
+  letter-spacing: -.04em;
+}
+a.twitter > img {
+  width: 32px;
+  vertical-align: middle;
+}
+a.github > img {
+  width: 24px;
+  padding: 0 6px;
+  vertical-align: middle;
+}
+
 /*==========  Mobile First Method  ==========*/
 
 /* Custom, iPhone Retina */
@@ -178,7 +217,7 @@ tr:nth-child(even) {
   .one-third.column               { width: 100%; }
   .one-half.column                { width: 100%; }
   .column                         { margin-left: 0; }
-  .column > img                   { width: 45% }
+  .column > img                   { width: 35% }
   /* Offsets */
   .offset-by-one-half.column      { margin-left: 0; }
   .offset-by-one-third.column     { margin-left: 0; }
@@ -187,46 +226,6 @@ tr:nth-child(even) {
   .column:nth-child(n+2)          { margin-left: 4%; }
 
 }
-
-.cancellation {
-  font-size: 85%;
-  font-style: italic;
-}
-
-p {text-align: justify; }
-
-div.social {
-  font-size: 80%;
-  display: inline-block;
-  vertical-align: top;
-}
-a.twitter {
-  display: inline-block;
-  font-family: "Helvetica Neue Pro", Helvetica, sans-serif;
-  font-weight: bold;
-  text-decoration: none;
-  color: black;
-  font: Helvetica;
-  letter-spacing: -.075em;
-}
-a.github {
-  text-decoration: none;
-  color: black;
-  letter-spacing: -.04em;
-}
-a.twitter > img {
-  width: 32px;
-  vertical-align: middle;
-}
-a.github > img {
-  width: 24px;
-  padding: 0 6px;
-  vertical-align: middle;
-}
-
-  .one-half.column > img {
-    width: 20%;
-  }
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
@@ -262,6 +261,7 @@ a.github > img {
   .content.coc > p {
     text-align: justify;
   }
+  .column > img                   { width: 38% }
 }
 
 /* Medium Devices, Desktops */

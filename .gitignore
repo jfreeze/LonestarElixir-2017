@@ -5,6 +5,7 @@
 /*.ez
 /rel
 .DS_Store
+deploy.sh
 
 # Generated on crash by the VM
 erl_crash.dump
