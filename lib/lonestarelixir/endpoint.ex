@@ -9,7 +9,7 @@ defmodule Lonestarelixir.Endpoint do
   # when deploying your static files in production.
   plug Plug.Static,
     at: "/", from: :lonestarelixir, gzip: false,
-    only: ~w(css fonts images js favicon.ico robots.txt index.html google3867c7e379784782.html)
+    only: ~w(css fonts images js favicon.ico robots.txt index.html google3867c7e379784782.html 2017)
 
   # Code reloading can be explicitly enabled under the
   # :code_reloader configuration of your endpoint.
