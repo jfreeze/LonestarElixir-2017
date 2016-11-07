@@ -2,10 +2,6 @@
     <div class="content">
       <div class="gridrow">
         <div class="offset-by-one-fourth one-fourth column">
-          &nbsp;
-        </div>
-
-        <div class="offset-by-one-fourth one-fourth column">
           <p>
             <a href="http://elixir-lang.org">Elixir</a>
             <br>
