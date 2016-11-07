@@ -50,8 +50,31 @@ body {
   width: 80%;
 }
 
-p {
+.media-sponsors {
+  display: inline-block;
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
 }
+.media-sponsors > a {
+  margin: 0 auto;
+  text-align: center;
+  width: 20px;
+  padding-bottom: 40px;
+  text-decoration: none;
+}
+.media-sponsors > a img {
+  max-height: 100px;
+}
+.sponsor > img {
+  margin: 0 auto;
+}
+.sponsor > p {
+  text-align: center;
+  color: #6F517D;
+}
+
+
 p.center {
   text-align: center;
 }
@@ -237,9 +260,9 @@ a.github > img {
   .one-third.column               { width: 30.6666666667%; }
   .one-half.column                { width: 47%; }
   /* Offsets */
+  .column:first-child             { margin-left: 0; }
   .offset-by-one-half.column      { margin-left: 52%; }
   .offset-by-one-fourth.column    { margin-left: 22%; }
-  .column:first-child             { margin-left: 0; }
   .column:nth-child(n+2)          { margin-left: 4%; }
 }
 

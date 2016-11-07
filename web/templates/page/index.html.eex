@@ -142,6 +142,29 @@
 
         </div>
       </div>
+
+
+      <div class="gridrow">
+        <div class="offset-by-one-fourth one-half column">
+          <img src="/images/2017/speakers/dave_thomas.png">
+          <div class="social">
+            <a class="twitter" href="https://twitter.com/pragdave"><img src="/images/Twitter_Logo_Blue/Twitter_Logo_Blue.png">@pragdave</a>
+            <br>
+            <a class="github"  href="https://github.com/pragdave"><img src="/images/github/GitHub-Mark-120px-plus.png">pragdave</a>
+          </div>
+          <h2>Dave Thomas</h2>
+          <p>
+            Dave Thomas is a programmer, one of the founders of
+            <a href="https://pragprog.com/">The Pragmatic Bookshelf</a>,
+            noted author of
+            <a href="https://pragprog.com/book/tpp/the-pragmatic-programmer">The Pragmatic Programmer</a>,
+            <a href="https://pragprog.com/book/ruby4/programming-ruby-1-9-2-0">Programming Ruby</a>,
+            and
+            <a href="https://pragprog.com/book/elixir13/programming-elixir-1-3">Programming Elixir</a>,
+            as well as many other books and articles.
+          </p>
+        </div>
+      </div>
     </div>
 
     <h1 id="hotel" class="main">HOTEL</h1>
@@ -197,6 +220,32 @@
       (512) 451-5011
     </p>
 
+    <h1 id="sponsors" class="main">SPONSORS</h1>
+
+    <div class="media-sponsors">
+      <a href="http://bigred.com/">
+        <div class="sponsor">
+          <img alt="Big Red" src="/images/2017/sponsors/bigred.png">
+          <br>
+          <p>BigRed.com</p>
+        </div>
+      </a>
+    </div>
+
+    <div class="media-sponsors">
+      <a href="http://www.xyience.com/">
+        <div class="sponsor">
+          <img alt="Xyience" src="/images/2017/sponsors/xyience-can.jpg">
+          <p>
+          Xyience - Power to Win<br>
+          Sugar Free. Zero calorie.<br>
+          Vitamin Enhanced.
+          </p>
+        </div>
+      </a>
+    </div>
+
+    <p style="clear: both">&nbsp;</p>
   </div>
 
 </div>
