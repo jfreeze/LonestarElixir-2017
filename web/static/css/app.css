@@ -3,6 +3,10 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: #F6F6F6;
 }
+.banner-container > img {
+  display: block;
+  width: 100%;
+}
 .logo-container {
   background-color: #EFEBF5;
   width: 100%;
