@@ -1,0 +1,363 @@
+<div class="speakers">
+<div class="speaker" id="cardarella">
+  <img src="/2017/images/speakers/brian-cardarella.jpg">
+  <div class="social title">
+     <h1>Brian Cardarella</h1>
+     <h2>Holistically built and tested APIs</h2>
+    <a class="twitter" href="https://twitter.com/bcardarella"><img src="/images/Twitter_Logo_Blue/Twitter_Logo_Blue.png">@bcardarella</a>
+    <br>
+    <a class="github"  href="https://github.com/bcardarella"><img src="/images/github/GitHub-Mark-120px-plus.png">bcardarella</a>
+  </div>
+
+  <h2>Audience</h2>
+  <p>Beginner, Intermediate</p>
+  <h2>Description</h2>
+  <p>
+    The Elixir eco system is moving fast. So fast that we sometimes look to how we did things in other languages to inform what we should do in Elixir. This is a good starting place but ultimately does us a disservice. Let's take a look at how to TDD a web-based API in Phoenix with a suite a of tools that have been optimized for the "Elixir Way"
+  </p>
+
+  <h2>Bio</h2>
+  <p>
+    Brian is the CEO of DockYard, a Boston-based Elixir/Phoenix
+    consultancy. He moonlights as a software engineer between
+    running a company and being a dad.
+  </p>
+</div>
+
+<div class="speaker" id="dawson">
+  <img src="/2017/images/speakers/paul-dawson.jpg">
+  <div class="social title">
+    <h1>Paul Dawson</h1>
+    <h2>The NeverEnding Application</h2>
+    <a class="twitter" href="https://twitter.com/piisalie"><img src="/images/Twitter_Logo_Blue/Twitter_Logo_Blue.png">@piisalie</a>
+    <br>
+    <a class="github"  href="https://github.com/piisalie"><img src="/images/github/GitHub-Mark-120px-plus.png">piisalie</a>
+  </div>
+  <h2>Audience</h2>
+  <p>Intermediate, Advanced</p>
+  <h2>Description</h2>
+  <p>
+    “Why do you stick everything in a database?”
+    —Joe Armstrong
+  </p>
+  <p>
+    <br>
+    Modern application development can be tough.  You need to remember things with long term storage, you need short term storage for the times when that’s too slow, and you need another kind of storage just to remember who you are currently talking to.  This process is obsolete.
+    <br>
+    <br>
+    Elixir affords us other options in designing our applications.  We have ready access to:
+    <br>
+
+    <ul>
+    <li> Accumulate only data stores
+    <li> Built-in caching via `ets`
+    <li> Hot code reloading
+    </ul>
+
+    These tools make it simpler to spend effort solving problems instead of working to satisfy some request/response cycle.
+    <br>
+    <br>
+    Through a sample application, we will explore these techniques and hone our recognition of when it’s possible to bypass complexity with straightforward data flows.
+    <br>
+    <br>
+    Make your apps run on state instead of CRUD.
+  </p>
+  <h2>Bio</h2>
+  <p>
+    Paul likes building things, sometimes with Elixir, sometimes not.
+    Object Oriented or Functional he prefers small, purpose built tools
+    and explicit functionality over magic. When he's not losing arguments
+    with computers he's probably chasing butterflies on his bicycle.
+  </p>
+
+
+</div>
+
+
+<div class="speaker" id="echavarria">
+  <img src="/2017/images/speakers/ricardo-echavarria.jpg">
+  <div class="social title">
+    <h1>Ricardo Echavarria</h1>
+    <h2>Raspberry Pi Cluster with the Power of Elixir</h2>
+    <a class="twitter" href="https://twitter.com/r_icarus"><img src="/images/Twitter_Logo_Blue/Twitter_Logo_Blue.png">@r_icarus</a>
+    <br>
+    <a class="github"  href="https://github.com/r-icarus"><img src="/images/github/GitHub-Mark-120px-plus.png">r-icarus</a>
+  </div>
+  <h2>Audience</h2>
+  <p>Beginner</p>
+  <h2>Description</h2>
+  <p>
+    Elixir is an elegant and powerful language. This makes the
+    Raspberry Pi a usable server for Elixir Applications.
+    What would happen if we had a cluster of Raspberry Pi devices?
+    Can Elixir and OTP help with the distribution of the application?
+    What would you do with a 16 core and 4 GB of RAM machine?
+    <br>
+    <br>
+    I’ll explore different techniques to deploy to a Raspberry Pi
+    Cluster and how we can use the Elixir processes to balance the
+    load between the devices.
+  </p>
+  <h2>Bio</h2>
+  <p>
+    Ruby on Rails developer working at Nearsoft that loves programming and agile methodologies. Former consultant developer at ThoughtWorks, cofounder of Piñata Software a Web Development Agency based in Chihuahua, Mexico.
+  </p>
+</div>
+
+<div class="speaker" id="gray">
+  <img src="/2017/images/speakers/jeg.jpg">
+  <div class="social title">
+    <h1>James Gray</h1>
+    <h2>The NeverEnding Application</h2>
+    <a class="twitter" href="https://twitter.com/JEG2"><img src="/images/Twitter_Logo_Blue/Twitter_Logo_Blue.png">@JEG2</a>
+    <br>
+    <a class="github"  href="https://github.com/JEG2"><img src="/images/github/GitHub-Mark-120px-plus.png">JEG2</a>
+  </div>
+  <h2>Audience</h2>
+  <p>Intermediate, Advanced</p>
+  <h2>Description</h2>
+  <p>
+    “Why do you stick everything in a database?”
+    —Joe Armstrong
+  </p>
+  <p>
+    <br>
+    Modern application development can be tough.  You need to remember things with long term storage, you need short term storage for the times when that’s too slow, and you need another kind of storage just to remember who you are currently talking to.  This process is obsolete.
+    <br>
+    <br>
+    Elixir affords us other options in designing our applications.  We have ready access to:
+    <br>
+
+    <ul>
+    <li> Accumulate only data stores
+    <li> Built-in caching via `ets`
+    <li> Hot code reloading
+    </ul>
+
+    These tools make it simpler to spend effort solving problems instead of working to satisfy some request/response cycle.
+    <br>
+    <br>
+    Through a sample application, we will explore these techniques and hone our recognition of when it’s possible to bypass complexity with straightforward data flows.
+    <br>
+    <br>
+    Make your apps run on state instead of CRUD.
+  </p>
+  <h2>Bio</h2>
+  <p>
+    James Edward Gray II has been a continuously running system for
+    over 40 years now.  Most of his concerns are handled in active
+    memory, but his model degrades a bit faster than the stuff Elixir
+    relies on.  He hopes to find some useful tidbits in his cache to
+    share with other programmers.
+  </p>
+  <p>
+  </p>
+</div>
+
+<div class="speaker" id="imhoff">
+  <img src="/2017/images/speakers/luke-imhoff.jpg">
+  <div class="social title">
+    <h1>Luke Imhoff</h1>
+    <h2>Shattering your application into an umbrella project</h2>
+    <a class="twitter" href="https://twitter.com/KronicDeth"><img src="/images/Twitter_Logo_Blue/Twitter_Logo_Blue.png">@KronicDeth</a>
+    <br>
+    <a class="github"  href="https://github.com/KronicDeth"><img src="/images/github/GitHub-Mark-120px-plus.png">KronicDeth</a>
+  </div>
+  <h2>Audience</h2>
+  <p>Intermediate</p>
+  <h2>Description</h2>
+  <p>
+    With the announcement of Phoenix 1.3 supporting umbrella projects
+    at ElixirConf 2016, I was inspired to start early on converting our
+    Phoenix 1.2 application to umbrella.  Since the umbrella project
+    templates weren't publicly available yet, I had to find the seams
+    in our single, monolithic application where I could start breaking
+    it into OTP apps for the umbrella project.
+    <br>
+    <br>
+    I'll cover the thought process of how I broke up the app and what
+    guidelines I use now when adding new code as to whether add it to
+    a pre-existing application or to make a new OTP application.
+    I'll share the common code I was able to share between our RPC
+    server and API controllers, which I believe is a good behaviour
+    for resource module in Phoenix 1.3.
+  </p>
+  <h2>Bio</h2>
+  <p>
+    I am the maintainer of intellij-elixir, the Elixir plugin for Jetbrains IDEs.
+    I have contributed to the Elixir standard library and found bugs
+    in the native tokenizer and parser through my work on intellij-elixir.
+    As part of my work at CSD, I've made the Alembic library, which helps
+    with validating JSONAPI and producing proper JSONAPI error documents
+    when validation fails.
+    <br>
+    <br>
+    I help run the Austin Elixir meetup.
+  </p>
+</div>
+
+<div class="speaker" id="joseph">
+  <img src="/2017/images/speakers/bryan-joseph.jpg">
+  <div class="social title">
+    <h1>Bryan Joseph</h1>
+    <h2>Using Elixirscript</h2>
+    <a class="twitter" href="https://twitter.com/bryanjos"><img src="/images/Twitter_Logo_Blue/Twitter_Logo_Blue.png">@bryanjos</a>
+    <br>
+    <a class="github"  href="https://github.com/bryanjos"><img src="/images/github/GitHub-Mark-120px-plus.png">bryanjos</a>
+  </div>
+  <h2>Audience</h2>
+  <p>Intermediate, Advanced</p>
+  <h2>Description</h2>
+  <p>
+    This talk will discuss ways of using Elixirscript today. It will start with a short introduction into what is Elixirscript and how it works. The rest of the talk will focus on what is currently possible, JavaScript interoperability, use with Phoenix projects, Elixir code sharing, and finally a future roadmap.
+  </p>
+  <h2>Bio</h2>
+  <p>
+    Bryan loves programming. In particular Bryan loves using programming to solve problems and give people tools that did not exist before. Other interests include programming languages, geospatial system, sports, and music. He hopes to use Elixir in some way in all of those.
+  </p>
+</div>
+
+<div class="speaker" id="lessel">
+  <img src="/2017/images/speakers/geoffrey-lessel.jpg">
+  <div class="social title">
+    <h1>Geoffrey Lessel</h1>
+    <h2>Using Ecto outside of Phoenix</h2>
+    <a class="twitter" href="https://twitter.com/geolessel"><img src="/images/Twitter_Logo_Blue/Twitter_Logo_Blue.png">@geolessel</a>
+    <br>
+    <a class="github"  href="https://github.com/geolessel"><img src="/images/github/GitHub-Mark-120px-plus.png">geolessel</a>
+  </div>
+  <h2>Audience</h2>
+  <p>Beginner</p>
+  <h2>Description</h2>
+  <p>
+    Setting up Ecto outside of Phoenix is really simple and can be a great way to get started learning about Elixir. In this live-coding presentation, we will set up Ecto in a test project and dive into some of the great things about Ecto and how to use it.
+  </p>
+  <h2>Bio</h2>
+  <p>
+    Geoffrey ("Geo") started contracting Ruby on Rails development jobs
+    in 2006 and has been developing full time since 2012 after dabbling
+    in real estate investing. He discovered Elixir in 2014 and has
+    really enjoyed what the language offers to developers.
+    He blogs at <a href="http://geoffreylessel.com">geoffreylessel.com</a>.
+  </p>
+  <p>
+  </p>
+</div>
+
+<div class="speaker" id="marx">
+  <img src="/2017/images/speakers/ben-marx.jpg">
+  <div class="social title">
+    <h1>Ben Marx</h1>
+    <h2>Elixir Adoption at Scale:  A Comprehensive Guide</h2>
+    <a class="twitter" href="https://twitter.com/bgmarx"><img src="/images/Twitter_Logo_Blue/Twitter_Logo_Blue.png">@bgmarx</a>
+    <br>
+    <a class="github"  href="https://github.com/bgmarx"><img src="/images/github/GitHub-Mark-120px-plus.png">bgmarx</a>
+  </div>
+  <h2>Audience</h2>
+  <p>Beginner, Intermediate</p>
+  <h2>Description</h2>
+  <p>
+    If you are a developer or company evaluating Elixir and looking for convincing and compelling reasons to do so, Bleacher Report is a case study in the fulfillment of the promises of Elixir and Phoenix.
+    Iterative code samples will illustrate how our understanding and use of Elixir and Phoenix over the last two years have led to greater developer productivity and happiness and more reliable, responsive and efficient systems.
+    With billions of monthly visitors and push notifications sent, Bleacher Report is in a unique position to show metrics that validate the aforementioned claims.  Metrics will convincingly show that technical problems with fluctuating traffic problems have been eliminated through the adoption of Elixir and Phoenix.
+    Finally, learn how we were able to train all of our former Ruby developers to become Elixir developers with minimal effort.
+  </p>
+  <h2>Bio</h2>
+  <p>
+    After years of object oriented development in PHP and Ruby,
+    finally enjoying the benefits of programming in Elixir.
+    Lead Developer at Bleacher Report leading the transition from Ruby and
+    Rails to Elixir and Phoenix.
+    <br>
+    <br>
+    Also as co-organizer of the Erlang & Elixir SF meetup,
+    please get in touch if you'd like to speak!
+  </p>
+</div>
+
+<div class="speaker" id="mihalich">
+  <img src="/2017/images/speakers/nico-mihalich.jpg">
+  <div class="social title">
+    <h1>Nico Mihalich</h1>
+    <h2>Leveling up your Phoenix projects with OTP</h2>
+    <a class="github"  href="https://github.com/nicomihalich"><img src="/images/github/GitHub-Mark-120px-plus.png">nicomihalich</a>
+  </div>
+  <h2>Audience</h2>
+  <p>Beginner, Intermediate</p>
+  <h2>Description</h2>
+  <p>
+    With Elixir and Phoenix, the toolkit for building web applications has expanded dramatically. Beyond Phoenix's routers and controllers awaits a whole new world of features and ways to build reliable systems. With this talk, you'll see how.
+    <br>
+    <br>
+    When learning or adopting a new language, you naturally draw on your existing domain knowledge as a stepping stone.  Building a web app in one language is much like building one in another. You handle requests, responses, and for most languages, give little thought to stateful processes and long-running subsystems.  However, with Elixir and Phoenix everything is different.  We can compose applications using isolated, stateful subsystems that a regular stateless request can interact with and leverage.
+    <br>
+    <br>
+    Over the course of the talk we will take a practical approach to building a small application in Elixir, walking through all the steps and describing what language features we are taking advantage of and why. Along the way we'll explore GenServer, OTP, backpressure management, synchronous vs asynchronous calls, a testing strategy, and integration into a Phoenix application.
+    <br>
+    <br>
+    The end result is a fully functional Elixir project, integrated into a Phoenix application.
+  </p>
+  <h2>Bio</h2>
+  <p>
+    Nico originally hails from Pennsylvania and, after getting his Computer Science degree from the University of Pennsylvania, spent a few years building up his developer skills in San Francisco.  He recently joined DockYard in Boston and splits his time between Elixir, Ember.js, cooking, and biking.
+  </p>
+</div>
+
+<div class="speaker" id="selder">
+  <img style="border: 1px solid red;" src="/2017/images/speakers/andrew-selder.jpg">
+  <div class="social title">
+    <h1>Andrew Selder</h1>
+    <h2>Creating a Nerves-based Status Monitor<br>(or how to sneak Elixir into your company)</h2>
+    <a class="twitter" href="https://twitter.com/aselder"><img src="/images/Twitter_Logo_Blue/Twitter_Logo_Blue.png">@aselder</a>
+    <br>
+    <a class="github"  href="https://github.com/aselder"><img src="/images/github/GitHub-Mark-120px-plus.png">aselder</a>
+  </div>
+  <h2>Audience</h2>
+  <p>Beginner, Intermediate</p>
+  <h2>Description</h2>
+  <p>
+    Like many of you, the organization I work for is deeply invested in an ecosystem other than Elixir, in our case Rails. However, we have lots of engineers interested in Elixir. The question: how do we get the rest of the developers interested and convince the bosses that Elixir is a worthwhile technology to invest in?
+    <br>
+    <br>
+    In deciding what to do, we had to consider the potential impact to our service (the Boss really frowns on taking down the site and annoying paying customers), the scope of the project (the Boss frowns on developers disappearing for a month to play with cool shiny things), intriguing the other engineers (engineers like cool shiny things). Balancing all these concerns was the key in getting buy-in from everyone.
+    <br>
+    <br>
+    We decided to build a status monitoring device using Nerves that shows the high level health of our app at a glance. We have LED strips showing recent apdex scores for our app (via NewRelic’s API), recent error rates (from Honeybadger), and the status of recent builds (from CircleCI), along with a big red flashing light for when Pingdom says our site is down.
+    <br>
+    <br>
+    For about $100 in parts, and a couple weekends of hacking, we built an appliance that was useful to the organization, showed off the power of Elixir/OTP, and was just darn cool!
+    <br>
+    <br>
+    In this talk, I'll go through how we created the appliance, the things we learned, and how this was a great project for introducing Elixir to the company. We’ll discuss why a Nerves based hardware project made sense given what we wanted to accomplish and the level of Elixir chops on the team. We’ll walk through the initial proposed design, and talk about how it evolved as we actually wrote the code. Finally we’ll take a look at the source code we ended up with, and see the monitor in all its glory.
+  </p>
+  <h2>Bio</h2>
+  <p>
+    I've been a developer for over 20 years, starting from C++ through Java and PHP before finding Ruby eight years ago, and now falling in love with Elixir. When not programming, I love baseball, traveling, and refereeing water polo.
+  </p>
+</div>
+
+<div class="speaker" id="wintermeyer">
+  <img src="/2017/images/speakers/stefan-wintermeyer.jpg">
+  <div class="social title">
+    <h1>Stefan Wintermeyer</h1>
+    <h2>How we build vutuv</h2>
+    <a class="twitter" href="https://twitter.com/wintermeyer"><img src="/images/Twitter_Logo_Blue/Twitter_Logo_Blue.png">@wintermeyer</a>
+    <br>
+    <a class="github"  href="https://github.com/wintermeyer"><img src="/images/github/GitHub-Mark-120px-plus.png">wintermeyer</a>
+  </div>
+  <h2>Audience</h2>
+  <p>Beginner</p>
+  <h2>Description</h2>
+  <p>
+    Let me take you through the idea and realisation of vutuv. The fast and free LinkedIn killer.
+    <br>
+    <br>
+    <a href="https://www.vutuv.de">https://www.vutuv.de</a>
+  </p>
+  <h2>Bio</h2>
+  <p>
+    I'm German and I am a software dinosaur.
+  </p>
+</div>
+
+</div>

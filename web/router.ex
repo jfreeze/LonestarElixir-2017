@@ -16,7 +16,7 @@ defmodule Lonestarelixir.Router do
   scope "/", Lonestarelixir do
     pipe_through :browser # Use the default browser stack
 
-    get "/test", PageController, :test
+    get "/speakers", PageController, :speakers
     get "/coc", PageController, :coc
     get "/", PageController, :index
   end

@@ -100,6 +100,10 @@ h2, h3, h4, h5 {
 h1.main, h2.main, h3.main {
   text-align: center;
 }
+img + h3 {
+  text-align: center;
+  margin-top: 0;
+}
 h1.main:nth-child(n+2) {
   padding-top: 20px;
   border-top: 4px solid #EFEBF5;
@@ -219,7 +223,33 @@ a.github > img {
   vertical-align: middle;
 }
 
+.speakers {
+  margin: 10px 20px;
+}
+
+.speakers p {
+  max-width: 56em;
+}
+.speaker {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 3px solid #CCC;
+  max-width: 56em;
+}
+.speaker > img {
+  box-shadow: 5px 5px 2px #aaa;
+}
+.speaker .title {
+  margin-left: 10px;
+}
 /*==========  Mobile First Method  ==========*/
+
+a {
+  color: inherit;
+  font-family: inherit;
+  text-decoration: none;
+}
 
 /* Custom, iPhone Retina */
 /* Device Width >= 320px */
@@ -245,6 +275,7 @@ a.github > img {
   .one-half.column                { width: 100%; }
   .column                         { margin-left: 0; }
   .column > img                   { width: 35% }
+  .one-third.column > a > img     { width: 95%; }
   /* Offsets */
   .offset-by-one-half.column      { margin-left: 0; }
   .offset-by-one-third.column     { margin-left: 0; }
@@ -288,7 +319,8 @@ a.github > img {
   .content.coc > p {
     text-align: justify;
   }
-  .column > img                   { width: 38% }
+  .one-half > img                   { width: 38%; }
+  .one-third > img                  { width: 99%; }
 }
 
 /* Medium Devices, Desktops */

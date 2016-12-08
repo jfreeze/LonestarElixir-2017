@@ -88,7 +88,7 @@
     <div class="gridcontainer">
       <div class="gridrow">
         <div class="one-half column">
-          <img src="/images/2017/speakers/chrismccord.jpg">
+          <img src="2017/images/speakers/chrismccord.jpg">
           <div class="social">
             <a class="twitter" href="https://twitter.com/chris_mccord"><img src="/images/Twitter_Logo_Blue/Twitter_Logo_Blue.png">@chris_mccord</a>
             <br>
@@ -105,7 +105,7 @@
 
         </div>
         <div class="one-half column">
-          <img src="/images/2017/speakers/justin-schneck.jpg">
+          <img src="2017/images/speakers/justin-schneck.jpg">
           <div class="social">
             <a class="twitter" href="https://twitter.com/mobileoverlord"><img src="/images/Twitter_Logo_Blue/Twitter_Logo_Blue.png">@mobileoverlord</a>
             <br>
@@ -127,7 +127,7 @@
 
       <div class="gridrow">
         <div class="offset-by-one-fourth one-half column">
-          <img src="/images/2017/speakers/dave_thomas.png">
+          <img src="2017/images/speakers/dave_thomas.png">
           <div class="social">
             <a class="twitter" href="https://twitter.com/pragdave"><img src="/images/Twitter_Logo_Blue/Twitter_Logo_Blue.png">@pragdave</a>
             <br>
@@ -148,11 +148,105 @@
       </div>
     </div>
 
+
+    <!------------------------------------------------------>
+    <h1 class="main">SPEAKERS</h1>
+    <div class="gridcontainer">
+      <div class="gridrow">
+
+        <div class="one-third column">
+          <a href="/speakers#cardarella">
+            <img src="/2017/images/speakers/brian-cardarella.jpg">
+            <h3>Brian Cardarella</h3>
+          </a>
+        </div>
+
+        <div class="one-third column">
+          <a href="/speakers#dawson">
+            <img src="/2017/images/speakers/paul-dawson.jpg">
+            <h3>Paul Dawson</h3>
+          </a>
+        </div>
+
+        <div class="one-third column">
+          <a href="/speakers#echavarria">
+            <img src="/2017/images/speakers/ricardo-echavarria.jpg">
+            <h3>Ricardo Echavarria</h3>
+          </a>
+        </div>
+      </div>
+
+      <div class="gridrow">
+
+        <div class="one-third column">
+          <a href="/speakers#gray">
+            <img src="/2017/images/speakers/jeg.jpg">
+            <h3>James Gray</h3>
+          </a>
+        </div>
+
+        <div class="one-third column">
+          <a href="/speakers#imhoff">
+            <img src="/2017/images/speakers/luke-imhoff.jpg">
+            <h3>Luke Imhoff</h3>
+          </a>
+        </div>
+
+        <div class="one-third column">
+          <a href="/speakers#joseph">
+            <img src="/2017/images/speakers/bryan-joseph.jpg">
+            <h3>Bryan Joseph</h3>
+          </a>
+        </div>
+      </div>
+
+      <div class="gridrow">
+        <div class="one-third column">
+          <a href="/speakers#lessel">
+            <img src="/2017/images/speakers/geoffrey-lessel.jpg">
+            <h3>Geoffrey Lessel</h3>
+          </a>
+        </div>
+
+        <div class="one-third column">
+          <a href="/speakers#marx">
+            <img src="/2017/images/speakers/ben-marx.jpg">
+            <h3>Ben Marx</h3>
+          </a>
+        </div>
+
+        <div class="one-third column">
+          <a href="/speakers#mihalich">
+            <img src="/2017/images/speakers/nico-mihalich.jpg">
+            <h3>Nico Mihalich</h3>
+          </a>
+        </div>
+      </div>
+
+      <div class="gridrow">
+
+        <div class="one-third column">
+          <a href="/speakers#selder">
+            <img src="/2017/images/speakers/andrew-selder.jpg">
+            <h3>Andrew Selder</h3>
+          </a>
+        </div>
+
+
+        <div class="one-third column">
+          <a href="/speakers#wintermeyer">
+            <img src="/2017/images/speakers/stefan-wintermeyer.jpg">
+            <h3>Stefan Wintermeyer</h3>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+
     <h1 id="hotel" class="main">HOTEL</h1>
-    <img src="/images/2017/resources/hyatt-place.jpg">
-    <h3 class="main">
-      Hyatt Place Austin Arboretum
-    </h3>
+    <img src="2017/images/resources/hyatt-place.jpg">
+    <h3 class="main">Hyatt Place Austin Arboretum</h3>
     <p>
       If you are visiting from out of town, we have arranged
       a great room for you at the Hyatt Place Austin Arboretum
@@ -206,7 +300,7 @@
     <div class="media-sponsors">
       <a href="http://bigred.com/">
         <div class="sponsor">
-          <img alt="Big Red" src="/images/2017/sponsors/bigred.png">
+          <img alt="Big Red" src="2017/images/sponsors/bigred.png">
           <p>BigRed.com</p>
         </div>
       </a>
@@ -215,7 +309,7 @@
     <div class="media-sponsors">
       <a href="http://www.xyience.com/">
         <div class="sponsor">
-          <img alt="Xyience" src="/images/2017/sponsors/xyience-can.jpg">
+          <img alt="Xyience" src="2017/images/sponsors/xyience-can.jpg">
           <p>
           Xyience - Power to Win<br>
           Sugar Free. Zero calorie.<br>

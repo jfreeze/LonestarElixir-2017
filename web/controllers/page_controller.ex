@@ -10,4 +10,8 @@ defmodule Lonestarelixir.PageController do
   def coc(conn, _params) do
     render conn, "coc.html"
   end
+
+  def speakers(conn, _params) do
+    render conn, "speakers.html"
+  end
 end
