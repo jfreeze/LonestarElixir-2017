@@ -1,4 +1,40 @@
 <div class="speakers">
+
+
+<div class="speaker" id="schneck">
+  <img src="/2017/images/speakers/justin-schneck.jpg">
+  <div class="social title">
+    <h1>Justin Schneck</h1>
+    <h2>King of the HIL</h2>
+    <a class="twitter" href="https://twitter.com/mobileoverlord"><img src="/images/Twitter_Logo_Blue/Twitter_Logo_Blue.png">@mobileoverlord</a>
+    <br>
+    <a class="github"  href="https://github.com/mobileoverlord"><img src="/images/github/GitHub-Mark-120px-plus.png">mobileoverlord</a>
+  </div>
+  <h2>Description</h2>
+  <p>
+    Developing "hardware and hardware accessories" can be difficult and time
+    consuming. Until now, you would have to constantly swap SD cards or create
+    and push full firmware updates in order to iterate on your device.
+    We want to make the development cycle as comfortable as possible by
+    marrying the fundamentals of Erlang hot code reloading with connected
+    Hardware in the Loop (HIL). Together, we will explore the
+    Nerves development cycle through live demonstrations from mix
+    nerves.new to mix firmware. Furthermore, we will push live code
+    updates and even leverage the Phoenix Live Reloader on the Target.
+    Finally, we will take a peek at executing ExUnit tests on connected hardware.
+  </p>
+  <h2>Bio</h2>
+  <p>
+    Over the years, Justin has worked on a plethora of
+    embedded projects from iPhone motorcycle starters to
+    advanced brewing and distilling equipment. Recently,
+    Justin founded Metasphere, an embedded software company
+    primarily focused on building Nerves.
+  </p>
+</div>
+
+
+
 <div class="speaker" id="cardarella">
   <img src="/2017/images/speakers/brian-cardarella.jpg">
   <div class="social title">

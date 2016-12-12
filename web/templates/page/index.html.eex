@@ -110,9 +110,10 @@
             <a class="twitter" href="https://twitter.com/mobileoverlord"><img src="/images/Twitter_Logo_Blue/Twitter_Logo_Blue.png">@mobileoverlord</a>
             <br>
             <a class="github"  href="https://github.com/mobileoverlord"><img src="/images/github/GitHub-Mark-120px-plus.png">mobileoverlord</a>
+            <a href="/speakers/#schneck"><h2>King of the HIL</h2></a>
           </div>
 
-          <h2>Justin Schneck</h2>
+          <a href="/speakers/#schneck"><h2>Justin Schneck</h2></a>
           <p>
             Over the years, Justin has worked on a plethora of
             embedded projects from iPhone motorcycle starters to
