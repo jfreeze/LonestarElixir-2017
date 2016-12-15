@@ -241,8 +241,8 @@
 
     </div>
 
-    <h1 class="main">SCHEDULE</h1>
-    <div id="schedule" class="gridcontainer">
+    <h1 id="schedule" class="main">SCHEDULE</h1>
+    <div class="gridcontainer">
       <h2 class="center">FRIDAY</h2>
       <table>
         <tr>
