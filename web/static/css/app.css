@@ -79,7 +79,7 @@ body {
 }
 
 
-p.center {
+.center {
   text-align: center;
 }
 p.subtext {
@@ -146,6 +146,7 @@ a.button:hover {
 
 table {
   margin: 0 auto;
+  width: 100%;
 }
 th, td {
   padding: 12px 15px;

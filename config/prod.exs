@@ -13,8 +13,10 @@ use Mix.Config
 # which you typically run after static files are built.
 config :lonestarelixir, Lonestarelixir.Endpoint,
   #http: [port: {:system, "PORT"}],
-  http: [port: 4000],
+  http: [ip: {127,0,0,1}, port: 4000],
+  server: true,
   url: [host: "LonestarElixir.com"],
+  #url: [host: "LonestarElixir.com", port: 443], # for ssl thru nginx
   root: ".",
   server: true,
   version: Mix.Project.config[:version],
