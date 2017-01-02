@@ -13,7 +13,7 @@
     <!-- FONT–––– -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,900" rel="stylesheet">
     <!-- Favicon–– -->
-    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="icon" type="image/png" href="/favicon.ico">
 
 
     <title>Lonestar ElixirConf 2017</title>
@@ -35,7 +35,7 @@
     </ul>
 
     <div class="banner-container">
-      <img src="/images/2017/resources/austin-skyline2.jpg">
+      <img src="/2017/images/resources/austin-skyline4.jpg">
     </div>
     <div class="logo-container">
       <img src="/images/rectangle-logohdpi.png">
