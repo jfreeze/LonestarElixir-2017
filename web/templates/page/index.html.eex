@@ -392,6 +392,20 @@
 
     <h1 id="sponsors" class="main">SPONSORS</h1>
 
+    <h2 id="sponsors" class="main">GOLD</h2>
+
+    <div class="gold-sponsors">
+      <a href="http://labzero.com/">
+        <div class="sponsor">
+          <img alt="Lab Zero Innovations" src="2017/images/sponsors/labzero.png">
+          <p>
+            Lab Zero Innovations is an experienced team of developers, designers, product owners, and leadership coaches. Founded in 2008, we design and build products for clients ranging from early-stage startups to fortune 10 powerhouses. Companies choose to work with us because of our collaborative culture, our mastery of modern tools.
+          </p>
+        </div>
+      </a>
+    </div>
+
+    <h2 id="sponsors" class="main">MEDIA</h2>
     <div class="media-sponsors">
       <a href="http://bigred.com/">
         <div class="sponsor">
