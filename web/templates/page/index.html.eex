@@ -449,6 +449,28 @@
       </a>
     </div>
 
+    <div class="gold-sponsors">
+      <a href="http://inaka.net/">
+        <div class="sponsor">
+          <img alt="Inaka" src="2017/images/sponsors/inaka-logo.png">
+          <p>
+            We are an end-to-end mobile and web app development company, with a focus on building social media and community apps. We have a solid base of clients and a core team of highly skilled developers backed up by expertise from Erlang Solutions - our parent company. Our purpose is to build solutions that really last. We reuse technology where it makes sense, but we are also fast to explore and adopt emerging tech and we are active contributors to the open source community. 
+          </p>
+        </div>
+      </a>
+    </div>
+
+    <div class="gold-sponsors">
+      <a href="https://www.erlang-solutions.com/home.html">
+        <div class="sponsor">
+          <img alt="Erlang Solutions" src="2017/images/sponsors/Erlang-Solutions-logo2.png">
+          <p>
+            Erlang Solutions offers world-class solutions for issues of scale, reliability and performance. We’re a talented team of software experts, passionate about Erlang/OTP & Elixir, and with an unwavering belief in the open-source future. From a wide range of products, on-site/remote consulting, support and mobile development to architecture/code reviews and training - our technical know-how is the backbone to our customers’ business’s operations. We have over 20 years of experience building lightweight, fault tolerant systems for the likes of WhatsApp, T-Mobile, Bleacher Report, Machine Zone and EE. 
+          </p>
+        </div>
+      </a>
+    </div>
+
     <h2 id="sponsors" class="main">MEDIA</h2>
     <div class="media-sponsors">
       <a href="http://bigred.com/">

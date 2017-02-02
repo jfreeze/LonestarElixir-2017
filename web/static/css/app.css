@@ -86,6 +86,7 @@ body {
   text-decoration: none;
 }
 .gold-sponsors p {
+  font-size: 75%;
 }
 .gold-sponsors > a img {
   max-width: 300px;
