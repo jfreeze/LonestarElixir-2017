@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:LoneStar ElixirConf 2017
+X-WR-TIMEZONE:America/Chicago
+X-WR-CALDESC:
+BEGIN:VEVENT
+DTSTART:20170210T150000Z
+DTEND:20170210T160000Z
+DTSTAMP:20170208T181302Z
+UID:69lqjfurv91l50c510pd9o5i8g@google.com
+CREATED:20170208T165819Z
+DESCRIPTION:Developing "hardware and hardware accessories" can be difficult
+  and time consuming. Until now\, you would have to constantly swap SD cards
+  or create and push full firmware updates in order to iterate on your devic
+ e. We want to make the development cycle as comfortable as possible by marr
+ ying the fundamentals of Erlang hot code reloading with connected Hardware 
+ in the Loop (HIL). Together\, we will explore the Nerves development cycle 
+ through live demonstrations from mix nerves.new to mix firmware. Furthermor
+ e\, we will push live code updates and even leverage the Phoenix Live Reloa
+ der on the Target. Finally\, we will take a peek at executing ExUnit tests 
+ on connected hardware.
+LAST-MODIFIED:20170208T180913Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Keynote - Justin Schneck
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

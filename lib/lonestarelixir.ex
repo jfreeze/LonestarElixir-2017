@@ -12,8 +12,7 @@ defmodule Lonestarelixir do
 #      supervisor(Lonestarelixir.Repo, []),
       # Start the endpoint when the application starts
       supervisor(Lonestarelixir.Endpoint, []),
-      # Start your own worker by calling: Lonestarelixir.Worker.start_link(arg1, arg2, arg3)
-      # worker(Lonestarelixir.Worker, [arg1, arg2, arg3]),
+      worker(Lonestarelixir.GoogleCalendarParamsCache, [])
     ]
 
     # See http://elixir-lang.org/docs/stable/elixir/Supervisor.html

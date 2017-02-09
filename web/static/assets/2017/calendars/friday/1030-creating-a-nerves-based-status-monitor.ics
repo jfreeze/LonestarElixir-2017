@@ -1,0 +1,54 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:LoneStar ElixirConf 2017
+X-WR-TIMEZONE:America/Chicago
+X-WR-CALDESC:
+BEGIN:VEVENT
+DTSTART:20170210T163000Z
+DTEND:20170210T171500Z
+DTSTAMP:20170208T181302Z
+UID:d3v3ekmp2jjr36fafa6kbb1n60@google.com
+CREATED:20170208T165943Z
+DESCRIPTION:Like many of you\, the organization I work for is deeply invest
+ ed in an ecosystem other than Elixir\, in our case Rails. However\, we have
+  lots of engineers interested in Elixir. The question: how do we get the re
+ st of the developers interested and convince the bosses that Elixir is a wo
+ rthwhile technology to invest in? \n\nIn deciding what to do\, we had to co
+ nsider the potential impact to our service (the Boss really frowns on takin
+ g down the site and annoying paying customers)\, the scope of the project (
+ the Boss frowns on developers disappearing for a month to play with cool sh
+ iny things)\, intriguing the other engineers (engineers like cool shiny thi
+ ngs). Balancing all these concerns was the key in getting buy-in from every
+ one. \n\nWe decided to build a status monitoring device using Nerves that s
+ hows the high level health of our app at a glance. We have LED strips showi
+ ng recent apdex scores for our app (via NewRelic’s API)\, recent error rate
+ s (from Honeybadger)\, and the status of recent builds (from CircleCI)\, al
+ ong with a big red flashing light for when Pingdom says our site is down. \
+ n\nFor about $100 in parts\, and a couple weekends of hacking\, we built an
+  appliance that was useful to the organization\, showed off the power of El
+ ixir/OTP\, and was just darn cool! \n\nIn this talk\, I'll go through how w
+ e created the appliance\, the things we learned\, and how this was a great 
+ project for introducing Elixir to the company. We’ll discuss why a Nerves b
+ ased hardware project made sense given what we wanted to accomplish and the
+  level of Elixir chops on the team. We’ll walk through the initial proposed
+  design\, and talk about how it evolved as we actually wrote the code. Fina
+ lly we’ll take a look at the source code we ended up with\, and see the mon
+ itor in all its glory.
+LAST-MODIFIED:20170208T180926Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Creating a Nerves-based Status Monitor (or how to sneak Elixir into
+  your company) - Andrew Selder
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H5M0S
+END:VALARM
+END:VEVENT
+END:VCALENDAR

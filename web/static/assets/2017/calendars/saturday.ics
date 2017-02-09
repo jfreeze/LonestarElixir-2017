@@ -1,0 +1,285 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:LoneStar ElixirConf 2017
+X-WR-TIMEZONE:America/Chicago
+X-WR-CALDESC:
+BEGIN:VEVENT
+DTSTART:20170211T140000Z
+DTEND:20170211T150000Z
+DTSTAMP:20170208T181302Z
+UID:s6p53rt5u1p9thv881p985llc0@google.com
+CREATED:20170208T172656Z
+DESCRIPTION:All day Hot Beverages including fresh brewed coffee and assorte
+ d herbal teas. \nJuices\, yogurts\, granola bars\, fresh fruit\, hot fresh 
+ pastries\, scones\, bagels & chocolate covered donuts!
+LAST-MODIFIED:20170208T181107Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Breakfast
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT12H0M0S
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT1H0M0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170211T160000Z
+DTEND:20170211T163000Z
+DTSTAMP:20170208T181302Z
+UID:4br3vic6iqunmnl44gdrlp5sss@google.com
+CREATED:20170208T173102Z
+DESCRIPTION:
+LAST-MODIFIED:20170208T181123Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Break
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170211T150000Z
+DTEND:20170211T160000Z
+DTSTAMP:20170208T181302Z
+UID:k6q750lklo99bfs73nket3441k@google.com
+CREATED:20170208T172815Z
+DESCRIPTION:
+LAST-MODIFIED:20170208T181143Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Keynote - Chris McCord
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H10M0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170211T163000Z
+DTEND:20170211T171500Z
+DTSTAMP:20170208T181302Z
+UID:uegi6jgof2ekjr2anq3khm2rvk@google.com
+CREATED:20170208T173333Z
+DESCRIPTION:Let me take you through the idea and realisation of vutuv. The 
+ fast and free LinkedIn killer. \n\nhttps://www.vutuv.de
+LAST-MODIFIED:20170208T181151Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:How we built vutuv - Stefan Wintermeyer
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H5M0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170211T171500Z
+DTEND:20170211T180000Z
+DTSTAMP:20170208T181302Z
+UID:jv4odj4hau0uls5tsn20meo1ds@google.com
+CREATED:20170208T173510Z
+DESCRIPTION:If you are a developer or company evaluating Elixir and looking
+  for convincing and compelling reasons to do so\, Bleacher Report is a case
+  study in the fulfillment of the promises of Elixir and Phoenix. Iterative 
+ code samples will illustrate how our understanding and use of Elixir and Ph
+ oenix over the last two years have led to greater developer productivity an
+ d happiness and more reliable\, responsive and efficient systems. With bill
+ ions of monthly visitors and push notifications sent\, Bleacher Report is i
+ n a unique position to show metrics that validate the aforementioned claims
+ . Metrics will convincingly show that technical problems with fluctuating t
+ raffic problems have been eliminated through the adoption of Elixir and Pho
+ enix. Finally\, learn how we were able to train all of our former Ruby deve
+ lopers to become Elixir developers with minimal effort.
+LAST-MODIFIED:20170208T181159Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Elixir Adoption at Scale: A Comprehensive Guide - Ben Marx
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H5M0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170211T180000Z
+DTEND:20170211T193000Z
+DTSTAMP:20170208T181302Z
+UID:hdnfq2ggtaf27s1qk67k5v0654@google.com
+CREATED:20170208T173851Z
+DESCRIPTION:Chicken Fried Chicken with country gravy (or Vegetarian Lasagna
+ )\, Mashed Potatoes\, Home-style green beans\, Garden Salad\, Assorted Dess
+ erts & Iced Tea.
+LAST-MODIFIED:20170208T181205Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Lunch
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H5M0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170211T193000Z
+DTEND:20170211T201500Z
+DTSTAMP:20170208T181302Z
+UID:u7jpt025ksfunkmnjt7o492mkk@google.com
+CREATED:20170208T173919Z
+DESCRIPTION:The Elixir eco system is moving fast. So fast that we sometimes
+  look to how we did things in other languages to inform what we should do i
+ n Elixir. This is a good starting place but ultimately does us a disservice
+ . Let's take a look at how to TDD a web-based API in Phoenix with a suite a
+  of tools that have been optimized for the "Elixir Way"
+LAST-MODIFIED:20170208T181211Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Holistically built and tested APIs - Brian Cardarella
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H30M0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170211T201500Z
+DTEND:20170211T210000Z
+DTSTAMP:20170208T181302Z
+UID:j9o81ifnvbkoeo0h7lekbbii30@google.com
+CREATED:20170208T174046Z
+DESCRIPTION:With Elixir and Phoenix\, the toolkit for building web applicat
+ ions has expanded dramatically. Beyond Phoenix's routers and controllers aw
+ aits a whole new world of features and ways to build reliable systems. With
+  this talk\, you'll see how. \n\nWhen learning or adopting a new language\,
+  you naturally draw on your existing domain knowledge as a stepping stone. 
+ Building a web app in one language is much like building one in another. Yo
+ u handle requests\, responses\, and for most languages\, give little though
+ t to stateful processes and long-running subsystems. However\, with Elixir 
+ and Phoenix everything is different. We can compose applications using isol
+ ated\, stateful subsystems that a regular stateless request can interact wi
+ th and leverage. \n\nOver the course of the talk we will take a practical a
+ pproach to building a small application in Elixir\, walking through all the
+  steps and describing what language features we are taking advantage of and
+  why. Along the way we'll explore GenServer\, OTP\, backpressure management
+ \, synchronous vs asynchronous calls\, a testing strategy\, and integration
+  into a Phoenix application. \n\nThe end result is a fully functional Elixi
+ r project\, integrated into a Phoenix application.
+LAST-MODIFIED:20170208T181217Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Leveling up your Phoenix projects with OTP - Nico Mihalich
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H5M0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170211T210000Z
+DTEND:20170211T213000Z
+DTSTAMP:20170208T181302Z
+UID:j3v1ghjeetn6s480f5eiub80jk@google.com
+CREATED:20170208T174247Z
+DESCRIPTION:Candy bar & flavored Gourmet Popcorn (‘dill pickle’\, ‘mexican 
+ hot chocolate’ & ‘smokey BBQ’). Cookies\, brownies & sodas.
+LAST-MODIFIED:20170208T181227Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Break
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170211T213000Z
+DTEND:20170211T221500Z
+DTSTAMP:20170208T181302Z
+UID:ap8tjo1rqnipgrphkig052bglg@google.com
+CREATED:20170208T174336Z
+DESCRIPTION:With the announcement of Phoenix 1.3 supporting umbrella projec
+ ts at ElixirConf 2016\, I was inspired to start early on converting our Pho
+ enix 1.2 application to umbrella. Since the umbrella project templates were
+ n't publicly available yet\, I had to find the seams in our single\, monoli
+ thic application where I could start breaking it into OTP apps for the umbr
+ ella project. \n\nI'll cover the thought process of how I broke up the app 
+ and what guidelines I use now when adding new code as to whether add it to 
+ a pre-existing application or to make a new OTP application. I'll share the
+  common code I was able to share between our RPC server and API controllers
+ \, which I believe is a good behaviour for resource module in Phoenix 1.3.
+LAST-MODIFIED:20170208T181233Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Shattering your application into an umbrella project - Luke Imhoff
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H5M0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170211T221500Z
+DTEND:20170211T223000Z
+DTSTAMP:20170208T181302Z
+UID:tsuja1clgug2bkdrdj32pkn0n0@google.com
+CREATED:20170208T174420Z
+DESCRIPTION:
+LAST-MODIFIED:20170208T181238Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Break
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170211T223000Z
+DTEND:20170211T233000Z
+DTSTAMP:20170208T181302Z
+UID:kp70o44d73otl7pcpo9k80rjrg@google.com
+CREATED:20170208T174540Z
+DESCRIPTION:
+LAST-MODIFIED:20170208T181245Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Keynote - Dave Thomas
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H5M0S
+END:VALARM
+END:VEVENT
+END:VCALENDAR

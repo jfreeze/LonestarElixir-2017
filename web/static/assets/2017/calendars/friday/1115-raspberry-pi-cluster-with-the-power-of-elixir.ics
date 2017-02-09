@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:LoneStar ElixirConf 2017
+X-WR-TIMEZONE:America/Chicago
+X-WR-CALDESC:
+BEGIN:VEVENT
+DTSTART:20170210T171500Z
+DTEND:20170210T180000Z
+DTSTAMP:20170208T181302Z
+UID:hii01b6ulu0kgal8vim6pfbkus@google.com
+CREATED:20170208T170549Z
+DESCRIPTION:Elixir is an elegant and powerful language. This makes the Rasp
+ berry Pi a usable server for Elixir Applications. What would happen if we h
+ ad a cluster of Raspberry Pi devices? Can Elixir and OTP help with the dist
+ ribution of the application? What would you do with a 16 core and 4 GB of R
+ AM machine? \n\nI’ll explore different techniques to deploy to a Raspberry 
+ Pi Cluster and how we can use the Elixir processes to balance the load betw
+ een the devices.
+LAST-MODIFIED:20170208T180935Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Raspberry Pi Cluster with the Power of Elixir - Ricardo Echavarria
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H5M0S
+END:VALARM
+END:VEVENT
+END:VCALENDAR

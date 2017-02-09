@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:LoneStar ElixirConf 2017
+X-WR-TIMEZONE:America/Chicago
+X-WR-CALDESC:
+BEGIN:VEVENT
+DTSTART:20170211T193000Z
+DTEND:20170211T201500Z
+DTSTAMP:20170208T181302Z
+UID:u7jpt025ksfunkmnjt7o492mkk@google.com
+CREATED:20170208T173919Z
+DESCRIPTION:The Elixir eco system is moving fast. So fast that we sometimes
+  look to how we did things in other languages to inform what we should do i
+ n Elixir. This is a good starting place but ultimately does us a disservice
+ . Let's take a look at how to TDD a web-based API in Phoenix with a suite a
+  of tools that have been optimized for the "Elixir Way"
+LAST-MODIFIED:20170208T181211Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Holistically built and tested APIs - Brian Cardarella
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H30M0S
+END:VALARM
+END:VEVENT
+END:VCALENDAR

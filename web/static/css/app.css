@@ -269,6 +269,12 @@ a.github > img {
 .speaker .title {
   margin-left: 10px;
 }
+
+img.calendar-icon {
+  height: 32px
+  width: 32px
+}
+
 /*==========  Mobile First Method  ==========*/
 
 a {
