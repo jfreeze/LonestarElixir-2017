@@ -10,7 +10,7 @@ defmodule Lonestarelixir.GoogleCalendarParamsCache do
   ## Client Functions
 
   def from_disk(ics_path) do
-    "web/static/assets#{ics_path}.ics"
+    "priv/static/#{ics_path}.ics"
     |> File.stream!()
     |> Enum.reduce(
          %{},
