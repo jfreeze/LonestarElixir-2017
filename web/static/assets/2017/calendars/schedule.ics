@@ -1,0 +1,609 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:LoneStar ElixirConf 2017
+X-WR-TIMEZONE:America/Chicago
+X-WR-CALDESC:
+BEGIN:VEVENT
+DTSTART:20170210T133000Z
+DTEND:20170210T145000Z
+DTSTAMP:20170208T181302Z
+UID:9872565r8g4lhesstsjg8mkdqo@google.com
+CREATED:20170208T165424Z
+DESCRIPTION:
+LAST-MODIFIED:20170208T180055Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Breakfast
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170210T133000Z
+DTEND:20170210T145000Z
+DTSTAMP:20170208T181302Z
+UID:gcknlmm560nc1iku50tn6q1bv4@google.com
+CREATED:20170208T165337Z
+DESCRIPTION:
+LAST-MODIFIED:20170208T180858Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Registration
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT12H0M0S
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT1H0M0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170210T145000Z
+DTEND:20170210T150000Z
+DTSTAMP:20170208T181302Z
+UID:cd8i2p4b95j4v777ao0l7dcdj4@google.com
+CREATED:20170208T165516Z
+DESCRIPTION:
+LAST-MODIFIED:20170208T180906Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Welcome
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT1H0M0S
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H15M0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170210T150000Z
+DTEND:20170210T160000Z
+DTSTAMP:20170208T181302Z
+UID:69lqjfurv91l50c510pd9o5i8g@google.com
+CREATED:20170208T165819Z
+DESCRIPTION:Developing "hardware and hardware accessories" can be difficult
+  and time consuming. Until now\, you would have to constantly swap SD cards
+  or create and push full firmware updates in order to iterate on your devic
+ e. We want to make the development cycle as comfortable as possible by marr
+ ying the fundamentals of Erlang hot code reloading with connected Hardware 
+ in the Loop (HIL). Together\, we will explore the Nerves development cycle 
+ through live demonstrations from mix nerves.new to mix firmware. Furthermor
+ e\, we will push live code updates and even leverage the Phoenix Live Reloa
+ der on the Target. Finally\, we will take a peek at executing ExUnit tests 
+ on connected hardware.
+LAST-MODIFIED:20170208T180913Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Keynote - Justin Schneck
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170210T160000Z
+DTEND:20170210T163000Z
+DTSTAMP:20170208T181302Z
+UID:851bj25v6l2dfeh9gj7i9b7r60@google.com
+CREATED:20170208T165559Z
+DESCRIPTION:
+LAST-MODIFIED:20170208T180919Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Break
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170210T163000Z
+DTEND:20170210T171500Z
+DTSTAMP:20170208T181302Z
+UID:d3v3ekmp2jjr36fafa6kbb1n60@google.com
+CREATED:20170208T165943Z
+DESCRIPTION:Like many of you\, the organization I work for is deeply invest
+ ed in an ecosystem other than Elixir\, in our case Rails. However\, we have
+  lots of engineers interested in Elixir. The question: how do we get the re
+ st of the developers interested and convince the bosses that Elixir is a wo
+ rthwhile technology to invest in? \n\nIn deciding what to do\, we had to co
+ nsider the potential impact to our service (the Boss really frowns on takin
+ g down the site and annoying paying customers)\, the scope of the project (
+ the Boss frowns on developers disappearing for a month to play with cool sh
+ iny things)\, intriguing the other engineers (engineers like cool shiny thi
+ ngs). Balancing all these concerns was the key in getting buy-in from every
+ one. \n\nWe decided to build a status monitoring device using Nerves that s
+ hows the high level health of our app at a glance. We have LED strips showi
+ ng recent apdex scores for our app (via NewRelic’s API)\, recent error rate
+ s (from Honeybadger)\, and the status of recent builds (from CircleCI)\, al
+ ong with a big red flashing light for when Pingdom says our site is down. \
+ n\nFor about $100 in parts\, and a couple weekends of hacking\, we built an
+  appliance that was useful to the organization\, showed off the power of El
+ ixir/OTP\, and was just darn cool! \n\nIn this talk\, I'll go through how w
+ e created the appliance\, the things we learned\, and how this was a great 
+ project for introducing Elixir to the company. We’ll discuss why a Nerves b
+ ased hardware project made sense given what we wanted to accomplish and the
+  level of Elixir chops on the team. We’ll walk through the initial proposed
+  design\, and talk about how it evolved as we actually wrote the code. Fina
+ lly we’ll take a look at the source code we ended up with\, and see the mon
+ itor in all its glory.
+LAST-MODIFIED:20170208T180926Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Creating a Nerves-based Status Monitor (or how to sneak Elixir into
+  your company) - Andrew Selder
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H5M0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170210T171500Z
+DTEND:20170210T180000Z
+DTSTAMP:20170208T181302Z
+UID:hii01b6ulu0kgal8vim6pfbkus@google.com
+CREATED:20170208T170549Z
+DESCRIPTION:Elixir is an elegant and powerful language. This makes the Rasp
+ berry Pi a usable server for Elixir Applications. What would happen if we h
+ ad a cluster of Raspberry Pi devices? Can Elixir and OTP help with the dist
+ ribution of the application? What would you do with a 16 core and 4 GB of R
+ AM machine? \n\nI’ll explore different techniques to deploy to a Raspberry 
+ Pi Cluster and how we can use the Elixir processes to balance the load betw
+ een the devices.
+LAST-MODIFIED:20170208T180935Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Raspberry Pi Cluster with the Power of Elixir - Ricardo Echavarria
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H5M0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170210T180000Z
+DTEND:20170210T193000Z
+DTSTAMP:20170208T181302Z
+UID:vnsffad1squh4t3vod1ut23m7o@google.com
+CREATED:20170208T170907Z
+DESCRIPTION:BBQ Brisket\, Ribs & Chicken (or Vegetarian Burger) with Potato
+  Salad\, Cole Slaw\, Mac & Cheese\, Assorted Desserts & Iced Tea.
+LAST-MODIFIED:20170208T180943Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Lunch
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H5M0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170210T193000Z
+DTEND:20170210T201500Z
+DTSTAMP:20170208T181302Z
+UID:psn95u3q1j0mc1pa3dk915b818@google.com
+CREATED:20170208T171141Z
+DESCRIPTION:“Why do you stick everything in a database?” —Joe Armstrong\n\n
+ \nModern application development can be tough. You need to remember things 
+ with long term storage\, you need short term storage for the times when tha
+ t’s too slow\, and you need another kind of storage just to remember who yo
+ u are currently talking to. This process is obsolete. \n\nElixir affords us
+  other options in designing our applications. We have ready access to: \nAc
+ cumulate only data stores\nBuilt-in caching via `ets`\nHot code reloading\n
+ These tools make it simpler to spend effort solving problems instead of wor
+ king to satisfy some request/response cycle. \n\nThrough a sample applicati
+ on\, we will explore these techniques and hone our recognition of when it’s
+  possible to bypass complexity with straightforward data flows. \n\nMake yo
+ ur apps run on state instead of CRUD.
+LAST-MODIFIED:20170208T180949Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:The NeverEnding Application - James Gray & Paul Dawson
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H30M0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170210T201500Z
+DTEND:20170210T211500Z
+DTSTAMP:20170208T181302Z
+UID:ndi45lb54dipemblasbjsu5p90@google.com
+CREATED:20170208T171415Z
+DESCRIPTION:This talk will discuss ways of using Elixirscript today. It wil
+ l start with a short introduction into what is Elixirscript and how it work
+ s. The rest of the talk will focus on what is currently possible\, JavaScri
+ pt interoperability\, use with Phoenix projects\, Elixir code sharing\, and
+  finally a future roadmap.
+LAST-MODIFIED:20170208T181025Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Using Elixirscript - Bryan Joseph
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H5M0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170210T210000Z
+DTEND:20170210T213000Z
+DTSTAMP:20170208T181302Z
+UID:op0bcjd1qd1tq437v21cmsqr9o@google.com
+CREATED:20170208T171601Z
+DESCRIPTION:Fresh baked cookies\, brownies\, Chex Mix\, Goldfish\, & sodas
+LAST-MODIFIED:20170208T181040Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Break
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170210T213000Z
+DTEND:20170210T221500Z
+DTSTAMP:20170208T181302Z
+UID:v76co968og7c2dr71licgba4mg@google.com
+CREATED:20170208T171708Z
+DESCRIPTION:Setting up Ecto outside of Phoenix is really simple and can be 
+ a great way to get started learning about Elixir. In this live-coding prese
+ ntation\, we will set up Ecto in a test project and dive into some of the g
+ reat things about Ecto and how to use it.
+LAST-MODIFIED:20170208T181045Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Using Ecto outside of Phoenix - Geoffrey Lessel
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H5M0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170210T221500Z
+DTEND:20170210T224500Z
+DTSTAMP:20170208T181302Z
+UID:jcbgin8o1gihiagrdp75aqist8@google.com
+CREATED:20170208T172037Z
+DESCRIPTION:
+LAST-MODIFIED:20170208T181054Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Break
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170210T224500Z
+DTEND:20170211T000000Z
+DTSTAMP:20170208T181302Z
+UID:ood3gs3s8v4m4uqk2n0jq0j28g@google.com
+CREATED:20170208T172403Z
+DESCRIPTION:
+LAST-MODIFIED:20170208T181100Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Lightning Talks
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H10M0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170211T140000Z
+DTEND:20170211T150000Z
+DTSTAMP:20170208T181302Z
+UID:s6p53rt5u1p9thv881p985llc0@google.com
+CREATED:20170208T172656Z
+DESCRIPTION:All day Hot Beverages including fresh brewed coffee and assorte
+ d herbal teas. \nJuices\, yogurts\, granola bars\, fresh fruit\, hot fresh 
+ pastries\, scones\, bagels & chocolate covered donuts!
+LAST-MODIFIED:20170208T181107Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Breakfast
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT12H0M0S
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT1H0M0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170211T160000Z
+DTEND:20170211T163000Z
+DTSTAMP:20170208T181302Z
+UID:4br3vic6iqunmnl44gdrlp5sss@google.com
+CREATED:20170208T173102Z
+DESCRIPTION:
+LAST-MODIFIED:20170208T181123Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Break
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170211T150000Z
+DTEND:20170211T160000Z
+DTSTAMP:20170208T181302Z
+UID:k6q750lklo99bfs73nket3441k@google.com
+CREATED:20170208T172815Z
+DESCRIPTION:
+LAST-MODIFIED:20170208T181143Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Keynote - Chris McCord
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H10M0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170211T163000Z
+DTEND:20170211T171500Z
+DTSTAMP:20170208T181302Z
+UID:uegi6jgof2ekjr2anq3khm2rvk@google.com
+CREATED:20170208T173333Z
+DESCRIPTION:Let me take you through the idea and realisation of vutuv. The 
+ fast and free LinkedIn killer. \n\nhttps://www.vutuv.de
+LAST-MODIFIED:20170208T181151Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:How we built vutuv - Stefan Wintermeyer
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H5M0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170211T171500Z
+DTEND:20170211T180000Z
+DTSTAMP:20170208T181302Z
+UID:jv4odj4hau0uls5tsn20meo1ds@google.com
+CREATED:20170208T173510Z
+DESCRIPTION:If you are a developer or company evaluating Elixir and looking
+  for convincing and compelling reasons to do so\, Bleacher Report is a case
+  study in the fulfillment of the promises of Elixir and Phoenix. Iterative 
+ code samples will illustrate how our understanding and use of Elixir and Ph
+ oenix over the last two years have led to greater developer productivity an
+ d happiness and more reliable\, responsive and efficient systems. With bill
+ ions of monthly visitors and push notifications sent\, Bleacher Report is i
+ n a unique position to show metrics that validate the aforementioned claims
+ . Metrics will convincingly show that technical problems with fluctuating t
+ raffic problems have been eliminated through the adoption of Elixir and Pho
+ enix. Finally\, learn how we were able to train all of our former Ruby deve
+ lopers to become Elixir developers with minimal effort.
+LAST-MODIFIED:20170208T181159Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Elixir Adoption at Scale: A Comprehensive Guide - Ben Marx
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H5M0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170211T180000Z
+DTEND:20170211T193000Z
+DTSTAMP:20170208T181302Z
+UID:hdnfq2ggtaf27s1qk67k5v0654@google.com
+CREATED:20170208T173851Z
+DESCRIPTION:Chicken Fried Chicken with country gravy (or Vegetarian Lasagna
+ )\, Mashed Potatoes\, Home-style green beans\, Garden Salad\, Assorted Dess
+ erts & Iced Tea.
+LAST-MODIFIED:20170208T181205Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Lunch
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H5M0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170211T193000Z
+DTEND:20170211T201500Z
+DTSTAMP:20170208T181302Z
+UID:u7jpt025ksfunkmnjt7o492mkk@google.com
+CREATED:20170208T173919Z
+DESCRIPTION:The Elixir eco system is moving fast. So fast that we sometimes
+  look to how we did things in other languages to inform what we should do i
+ n Elixir. This is a good starting place but ultimately does us a disservice
+ . Let's take a look at how to TDD a web-based API in Phoenix with a suite a
+  of tools that have been optimized for the "Elixir Way"
+LAST-MODIFIED:20170208T181211Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Holistically built and tested APIs - Brian Cardarella
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H30M0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170211T201500Z
+DTEND:20170211T210000Z
+DTSTAMP:20170208T181302Z
+UID:j9o81ifnvbkoeo0h7lekbbii30@google.com
+CREATED:20170208T174046Z
+DESCRIPTION:With Elixir and Phoenix\, the toolkit for building web applicat
+ ions has expanded dramatically. Beyond Phoenix's routers and controllers aw
+ aits a whole new world of features and ways to build reliable systems. With
+  this talk\, you'll see how. \n\nWhen learning or adopting a new language\,
+  you naturally draw on your existing domain knowledge as a stepping stone. 
+ Building a web app in one language is much like building one in another. Yo
+ u handle requests\, responses\, and for most languages\, give little though
+ t to stateful processes and long-running subsystems. However\, with Elixir 
+ and Phoenix everything is different. We can compose applications using isol
+ ated\, stateful subsystems that a regular stateless request can interact wi
+ th and leverage. \n\nOver the course of the talk we will take a practical a
+ pproach to building a small application in Elixir\, walking through all the
+  steps and describing what language features we are taking advantage of and
+  why. Along the way we'll explore GenServer\, OTP\, backpressure management
+ \, synchronous vs asynchronous calls\, a testing strategy\, and integration
+  into a Phoenix application. \n\nThe end result is a fully functional Elixi
+ r project\, integrated into a Phoenix application.
+LAST-MODIFIED:20170208T181217Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Leveling up your Phoenix projects with OTP - Nico Mihalich
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H5M0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170211T210000Z
+DTEND:20170211T213000Z
+DTSTAMP:20170208T181302Z
+UID:j3v1ghjeetn6s480f5eiub80jk@google.com
+CREATED:20170208T174247Z
+DESCRIPTION:Candy bar & flavored Gourmet Popcorn (‘dill pickle’\, ‘mexican 
+ hot chocolate’ & ‘smokey BBQ’). Cookies\, brownies & sodas.
+LAST-MODIFIED:20170208T181227Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Break
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170211T213000Z
+DTEND:20170211T221500Z
+DTSTAMP:20170208T181302Z
+UID:ap8tjo1rqnipgrphkig052bglg@google.com
+CREATED:20170208T174336Z
+DESCRIPTION:With the announcement of Phoenix 1.3 supporting umbrella projec
+ ts at ElixirConf 2016\, I was inspired to start early on converting our Pho
+ enix 1.2 application to umbrella. Since the umbrella project templates were
+ n't publicly available yet\, I had to find the seams in our single\, monoli
+ thic application where I could start breaking it into OTP apps for the umbr
+ ella project. \n\nI'll cover the thought process of how I broke up the app 
+ and what guidelines I use now when adding new code as to whether add it to 
+ a pre-existing application or to make a new OTP application. I'll share the
+  common code I was able to share between our RPC server and API controllers
+ \, which I believe is a good behaviour for resource module in Phoenix 1.3.
+LAST-MODIFIED:20170208T181233Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Shattering your application into an umbrella project - Luke Imhoff
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H5M0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170211T221500Z
+DTEND:20170211T223000Z
+DTSTAMP:20170208T181302Z
+UID:tsuja1clgug2bkdrdj32pkn0n0@google.com
+CREATED:20170208T174420Z
+DESCRIPTION:
+LAST-MODIFIED:20170208T181238Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Break
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20170211T223000Z
+DTEND:20170211T233000Z
+DTSTAMP:20170208T181302Z
+UID:kp70o44d73otl7pcpo9k80rjrg@google.com
+CREATED:20170208T174540Z
+DESCRIPTION:
+LAST-MODIFIED:20170208T181245Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Keynote - Dave Thomas
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H5M0S
+END:VALARM
+END:VEVENT
+END:VCALENDAR

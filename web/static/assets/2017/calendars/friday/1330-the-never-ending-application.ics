@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:LoneStar ElixirConf 2017
+X-WR-TIMEZONE:America/Chicago
+X-WR-CALDESC:
+BEGIN:VEVENT
+DTSTART:20170210T193000Z
+DTEND:20170210T201500Z
+DTSTAMP:20170208T181302Z
+UID:psn95u3q1j0mc1pa3dk915b818@google.com
+CREATED:20170208T171141Z
+DESCRIPTION:“Why do you stick everything in a database?” —Joe Armstrong\n\n
+ \nModern application development can be tough. You need to remember things 
+ with long term storage\, you need short term storage for the times when tha
+ t’s too slow\, and you need another kind of storage just to remember who yo
+ u are currently talking to. This process is obsolete. \n\nElixir affords us
+  other options in designing our applications. We have ready access to: \nAc
+ cumulate only data stores\nBuilt-in caching via `ets`\nHot code reloading\n
+ These tools make it simpler to spend effort solving problems instead of wor
+ king to satisfy some request/response cycle. \n\nThrough a sample applicati
+ on\, we will explore these techniques and hone our recognition of when it’s
+  possible to bypass complexity with straightforward data flows. \n\nMake yo
+ ur apps run on state instead of CRUD.
+LAST-MODIFIED:20170208T180949Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:The NeverEnding Application - James Gray & Paul Dawson
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H30M0S
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:LoneStar ElixirConf 2017
+X-WR-TIMEZONE:America/Chicago
+X-WR-CALDESC:
+BEGIN:VEVENT
+DTSTART:20170210T201500Z
+DTEND:20170210T211500Z
+DTSTAMP:20170208T181302Z
+UID:ndi45lb54dipemblasbjsu5p90@google.com
+CREATED:20170208T171415Z
+DESCRIPTION:This talk will discuss ways of using Elixirscript today. It wil
+ l start with a short introduction into what is Elixirscript and how it work
+ s. The rest of the talk will focus on what is currently possible\, JavaScri
+ pt interoperability\, use with Phoenix projects\, Elixir code sharing\, and
+  finally a future roadmap.
+LAST-MODIFIED:20170208T181025Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Using Elixirscript - Bryan Joseph
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H5M0S
+END:VALARM
+END:VEVENT
+END:VCALENDAR

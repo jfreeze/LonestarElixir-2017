@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:LoneStar ElixirConf 2017
+X-WR-TIMEZONE:America/Chicago
+X-WR-CALDESC:
+BEGIN:VEVENT
+DTSTART:20170210T213000Z
+DTEND:20170210T221500Z
+DTSTAMP:20170208T181302Z
+UID:v76co968og7c2dr71licgba4mg@google.com
+CREATED:20170208T171708Z
+DESCRIPTION:Setting up Ecto outside of Phoenix is really simple and can be 
+ a great way to get started learning about Elixir. In this live-coding prese
+ ntation\, we will set up Ecto in a test project and dive into some of the g
+ reat things about Ecto and how to use it.
+LAST-MODIFIED:20170208T181045Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Using Ecto outside of Phoenix - Geoffrey Lessel
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H5M0S
+END:VALARM
+END:VEVENT
+END:VCALENDAR

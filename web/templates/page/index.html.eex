@@ -241,22 +241,41 @@
 
     </div>
 
-    <h1 id="schedule" class="main">SCHEDULE</h1>
+    <h1 id="schedule" class="main">
+      SCHEDULE
+      <a href="/2017/calendars/schedule.ics" title="Add all conference sessions to iCal/Outlook">
+        <img class="calendar-icon" src="/images/ical.png" width="32px" height="32px"/>
+      </a>
+    </h1>
     <div class="gridcontainer">
-      <h2 class="center">FRIDAY</h2>
+      <h2 class="center">
+        FRIDAY
+        <a href="/2017/calendars/friday.ics" title="Add all Friday sessions to iCal/Outlook">
+          <img class="calendar-icon" src="/images/ical.png" width="32px" height="32px"/>
+        </a>
+      </h2>
       <table>
         <thead>
           <tr>
             <th>Time</th>
             <th>Event</th>
+            <th>
+              <img title="iCal .ics files for each session" class="calendar-icon" src="/images/ical.png" width="32px" height="32px"/>
+            </th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>7:50-8:50</td><td>Registration</td>
+            <td>7:50-8:50</td>
+            <td>Registration</td>
+            <td>
+              <%= ics_link("/2017/calendars/friday/0750-registration") %>
+            </td>
           </tr>
           <tr>
-            <td>7:50-8:50</td><td><strong>Breakfast</strong><br>
+            <td>7:50-8:50</td>
+            <td>
+              <strong>Breakfast</strong><br>
               <em>
                 All day Hot Beverages including fresh brewed coffee
                 and assorted herbal teas.
@@ -264,72 +283,122 @@
                 Juices, yogurts, granola bars,
                 fresh fruit, hot fresh pastries,
                 scones, bagels & chocolate covered donuts!
-            </em>
+              </em>
+            </td>
+            <td>
+              <%= ics_link("/2017/calendars/friday/0750-breakfast") %>
             </td>
           </tr>
           <tr>
-            <td>8:50-9:00</td><td>Welcome</td>
+            <td>8:50-9:00</td>
+            <td>Welcome</td>
+            <td>
+              <%= ics_link("/2017/calendars/friday/0850-welcome") %>
+            </td>
           </tr>
           <tr>
-            <td>9:00-10:00</td><td><strong>KEYNOTE: <a href="/speakers/#schneck">Justin Schneck</a></strong></td>
+            <td>9:00-10:00</td>
+            <td><strong>KEYNOTE: <a href="/speakers/#schneck">Justin Schneck</a></strong></td>
+            <td><%= ics_link("/2017/calendars/friday/0900-keynote") %></td>
           </tr>
           <tr>
-            <td>10:00-10:30</td><td><strong>Break</strong></td>
+            <td>10:00-10:30</td>
+            <td><strong>Break</strong></td>
+            <td><%= ics_link("/2017/calendars/friday/1000-break") %></td>
           </tr>
           <tr>
-            <td>10:30-11:15</td><td><a href="/speakers/#selder">Andrew Selder:
-              <em>Creating a Nerves-based Status Monitor (or how to sneak Elixir into your company)</em></a></td>
+            <td>10:30-11:15</td>
+            <td>
+              <a href="/speakers/#selder">
+                Andrew Selder:
+                <em>Creating a Nerves-based Status Monitor (or how to sneak Elixir into your company)</em>
+              </a>
+            </td>
+            <td><%= ics_link("/2017/calendars/friday/1030-creating-a-nerves-based-status-monitor") %></td>
           </tr>
           <tr>
-            <td>11:15-12:00</td><td><a href="/speakers/#echavarria">Ricardo Echavarria:
-                <em>Raspberry Pi Cluster with the Power of Elixir</em></a></td>
+            <td>11:15-12:00</td>
+            <td>
+              <a href="/speakers/#echavarria">
+                Ricardo Echavarria: <em>Raspberry Pi Cluster with the Power of Elixir</em>
+              </a>
+            </td>
+            <td><%= ics_link("/2017/calendars/friday/1115-raspberry-pi-cluster-with-the-power-of-elixir") %></td>
           </tr>
           <tr>
-            <td>12:00-1:30</td><td><strong>Lunch</strong><br>
+            <td>12:00-1:30</td>
+            <td>
+              <strong>Lunch</strong><br>
               <em>
-              BBQ Brisket, Ribs & Chicken (or Vegetarian Burger) with
-              Potato Salad, Cole Slaw, Mac & Cheese,
-              Assorted Desserts & Iced Tea.
-            </em>
+                BBQ Brisket, Ribs & Chicken (or Vegetarian Burger) with
+                Potato Salad, Cole Slaw, Mac & Cheese,
+                Assorted Desserts & Iced Tea.
+              </em>
             </td>
+            <td><%= ics_link("/2017/calendars/friday/1200-lunch") %></td>
           </tr>
           <tr>
-            <td>1:30-2:15</td><td><a href="/speakers/#gray">James Gray</a> &amp; <a href="/speakers/#dawson">Paul Dawson:</a> <em>The NeverEnding Application</em></td>
+            <td>1:30-2:15</td>
+            <td>
+              <a href="/speakers/#gray">James Gray</a> &amp; <a href="/speakers/#dawson">Paul Dawson:</a>
+              <em>The NeverEnding Application</em>
+            </td>
+            <td><%= ics_link("/2017/calendars/friday/1330-the-never-ending-application") %></td>
           </tr>
           <tr>
-            <td>2:15-3:00</td><td><a href="/speakers/#joseph">Bryan Joseph: <em>Using Elixirscript</em></a></td>
+            <td>2:15-3:00</td>
+            <td><a href="/speakers/#joseph">Bryan Joseph: <em>Using Elixirscript</em></a></td>
+            <td><%= ics_link("/2017/calendars/friday/1415-using-elixirscript") %></td>
           </tr>
           <tr>
-            <td>3:00-3:30</td><td><strong>Break</strong><br>
+            <td>3:00-3:30</td>
+            <td><strong>Break</strong><br>
               <em>
               Fresh baked cookies, brownies,
               Chex Mix, Goldfish, & sodas.
               </em>
             </td>
+            <td><%= ics_link("/2017/calendars/friday/1500-break") %></td>
           </tr>
           <tr>
-            <td>3:30-4:15</td><td><a href="/speakers/#lessel">Geoffrey Lessel: <em>Using Ecto outside of Phoenix</em></a></td>
+            <td>3:30-4:15</td>
+            <td><a href="/speakers/#lessel">Geoffrey Lessel: <em>Using Ecto outside of Phoenix</em></a></td>
+            <td><%= ics_link("/2017/calendars/friday/1530-using-ecto-outside-of-phoenix") %></td>
           </tr>
           <tr>
-            <td>4:15-4:45</td><td><strong>Break</strong></td>
+            <td>4:15-4:45</td>
+            <td><strong>Break</strong></td>
+            <td><%= ics_link("/2017/calendars/friday/1615-break") %></td>
           </tr>
           <tr>
-            <td>4:45-6:00</td><td><strong>Lightning Talks</strong></td>
+            <td>4:45-6:00</td>
+            <td><strong>Lightning Talks</strong></td>
+            <td><%= ics_link("/2017/calendars/friday/1645-lightning-talks") %></td>
           </tr>
         </tbody>
       </table>
       
-      <h2 class="center">SATURDAY</h2>
+      <h2 class="center">
+        SATURDAY
+        <a href="/2017/calendars/saturday.ics" title="Add all Saturday sessions to iCal/Outlook">
+          <img class="calendar-icon" src="/images/ical.png" width="32px" height="32px"/>
+        </a>
+      </h2>
       <table>
         <thead>
           <tr>
             <th>Time</th>
             <th>Event</th>
+            <th>
+              <img title="iCal .ics files for each session" class="calendar-icon" src="/images/ical.png" width="32px" height="32px"/>
+            </th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>8:00-9:00</td><td><strong>Breakfast</strong><br>
+            <td>8:00-9:00</td>
+            <td>
+              <strong>Breakfast</strong><br>
               <em>
                 All day Hot Beverages including fresh brewed coffee
                 and assorted herbal teas.
@@ -337,53 +406,81 @@
                 Juices, yogurts, granola bars,
                 fresh fruit, hot fresh pastries,
                 scones, bagels & chocolate covered donuts!
-            </em>
+              </em>
             </td>
+            <td><%= ics_link("/2017/calendars/saturday/0800-breakfast") %></td>
           </tr>
           <tr>
-            <td>9:00-10:00</td><td><a href="/#mccord"><strong>KEYNOTE: Chris McCord</strong></a></td>
+            <td>9:00-10:00</td>
+            <td><a href="/#mccord"><strong>KEYNOTE: Chris McCord</strong></a></td>
+            <td><%= ics_link("/2017/calendars/saturday/0900-keynote") %></td>
           </tr>
           <tr>
-            <td>10:00-10:30</td><td><strong>Break</strong></td>
+            <td>10:00-10:30</td>
+            <td><strong>Break</strong></td>
+            <td><%= ics_link("/2017/calendars/saturday/1000-break") %></td>
           </tr>
           <tr>
-            <td>10:30-11:15</td><td><a href="/speakers/#wintermeyer">Stefan Wintermeyer: <em>How we build vutuv</em></a></td>
+            <td>10:30-11:15</td>
+            <td><a href="/speakers/#wintermeyer">Stefan Wintermeyer: <em>How we build vutuv</em></a></td>
+            <td><%= ics_link("/2017/calendars/saturday/1030-how-we-build-vutuv") %></td>
           </tr>
           <tr>
-            <td>11:15-12:00</td><td><a href="/speakers/#marx">Ben Marx: <em>Elixir Adoption at Scale:  A Comprehensive Guide</em></a></td>
+            <td>11:15-12:00</td>
+            <td><a href="/speakers/#marx">Ben Marx: <em>Elixir Adoption at Scale:  A Comprehensive Guide</em></a></td>
+            <td><%= ics_link("/2017/calendars/saturday/1115-elixir-adoption-at-scale") %></td>
           </tr>
           <tr>
-            <td>12:00-1:30</td><td><strong>Lunch</strong><br>
-            <em>
-              Chicken Fried Chicken with country gravy (or Vegetarian Lasagna),
-              Mashed Potatoes, Home-style green beans, Garden Salad,
-              Assorted Desserts & Iced Tea.
-            </em>
-          </td>
+            <td>12:00-1:30</td>
+            <td>
+              <strong>Lunch</strong><br>
+              <em>
+                Chicken Fried Chicken with country gravy (or Vegetarian Lasagna),
+                Mashed Potatoes, Home-style green beans, Garden Salad,
+                Assorted Desserts & Iced Tea.
+              </em>
+            </td>
+            <td><%= ics_link("/2017/calendars/saturday/1200-lunch") %></td>
           </tr>
           <tr>
-            <td>1:30-2:15</td><td><a href="/speakers/#cardarella">Brian Cardarella: <em>Holistically built and tested APIs</em></a></td>
+            <td>1:30-2:15</td>
+            <td><a href="/speakers/#cardarella">Brian Cardarella: <em>Holistically built and tested APIs</em></a></td>
+            <td><%= ics_link("/2017/calendars/saturday/1330-holistically-built-and-tested-apis") %></td>
           </tr>
           <tr>
-            <td>2:15-3:00</td><td><a href="/speakers/#mihalich">Nico Mihalich: <em>Leveling up your Phoenix projects with OTP</em></a></td>
+            <td>2:15-3:00</td>
+            <td>
+              <a href="/speakers/#mihalich">Nico Mihalich: <em>Leveling up your Phoenix projects with OTP</em></a>
+            </td>
+            <td><%= ics_link("/2017/calendars/saturday/1415-leveling-up-your-phoenix-projects-with-otp") %></td>
           </tr>
           <tr>
-            <td>3:00-3:30</td><td><strong>Break</strong><br>
+            <td>3:00-3:30</td>
+            <td><strong>Break</strong><br>
               <em>
                 Candy bar & flavored Gourmet Popcorn
                 (‘dill pickle’, ‘mexican hot chocolate’ & ‘smokey BBQ’).
                 Cookies, brownies & sodas.
               </em>
             </td>
+            <td><%= ics_link("/2017/calendars/saturday/1500-break") %></td>
           </tr>
           <tr>
-            <td>3:30-4:15</td><td><a href="/speakers/#imhoff">Luke Imhoff: <em>Shattering your application into an umbrella project</em></a></td>
+            <td>3:30-4:15</td>
+            <td>
+              <a href="/speakers/#imhoff">Luke Imhoff: <em>Shattering your application into an umbrella project</em></a>
+            </td>
+            <td><%= ics_link("/2017/calendars/saturday/1530-shattering-your-application-into-an-umbrella-project") %></td>
           </tr>
           <tr>
-            <td>4:15-4:30</td><td><strong>Break</strong></td>
+            <td>4:15-4:30</td>
+            <td><strong>Break</strong></td>
+            <td><%= ics_link("/2017/calendars/saturday/1615-break") %></td>
           </tr>
           <tr>
-            <td>4:30-5:30</td><td><a href="/#thomas"><strong>KEYNOTE: Dave Thomas</strong></a></td>
+            <td>4:30-5:30</td>
+            <td><a href="/#thomas"><strong>KEYNOTE: Dave Thomas</strong></a></td>
+            <td><%= ics_link("/2017/calendars/saturday/1630-keynote") %></td>
           </tr>
         <tbody>
       </table>

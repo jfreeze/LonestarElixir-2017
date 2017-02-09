@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:LoneStar ElixirConf 2017
+X-WR-TIMEZONE:America/Chicago
+X-WR-CALDESC:
+BEGIN:VEVENT
+DTSTART:20170211T140000Z
+DTEND:20170211T150000Z
+DTSTAMP:20170208T181302Z
+UID:s6p53rt5u1p9thv881p985llc0@google.com
+CREATED:20170208T172656Z
+DESCRIPTION:All day Hot Beverages including fresh brewed coffee and assorte
+ d herbal teas. \nJuices\, yogurts\, granola bars\, fresh fruit\, hot fresh 
+ pastries\, scones\, bagels & chocolate covered donuts!
+LAST-MODIFIED:20170208T181107Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Breakfast
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT12H0M0S
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT1H0M0S
+END:VALARM
+END:VEVENT
+END:VCALENDAR

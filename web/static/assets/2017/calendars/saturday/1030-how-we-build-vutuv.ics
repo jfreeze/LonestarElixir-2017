@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:LoneStar ElixirConf 2017
+X-WR-TIMEZONE:America/Chicago
+X-WR-CALDESC:
+BEGIN:VEVENT
+DTSTART:20170211T163000Z
+DTEND:20170211T171500Z
+DTSTAMP:20170208T181302Z
+UID:uegi6jgof2ekjr2anq3khm2rvk@google.com
+CREATED:20170208T173333Z
+DESCRIPTION:Let me take you through the idea and realisation of vutuv. The 
+ fast and free LinkedIn killer. \n\nhttps://www.vutuv.de
+LAST-MODIFIED:20170208T181151Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:How we built vutuv - Stefan Wintermeyer
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H5M0S
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:LoneStar ElixirConf 2017
+X-WR-TIMEZONE:America/Chicago
+X-WR-CALDESC:
+BEGIN:VEVENT
+DTSTART:20170211T213000Z
+DTEND:20170211T221500Z
+DTSTAMP:20170208T181302Z
+UID:ap8tjo1rqnipgrphkig052bglg@google.com
+CREATED:20170208T174336Z
+DESCRIPTION:With the announcement of Phoenix 1.3 supporting umbrella projec
+ ts at ElixirConf 2016\, I was inspired to start early on converting our Pho
+ enix 1.2 application to umbrella. Since the umbrella project templates were
+ n't publicly available yet\, I had to find the seams in our single\, monoli
+ thic application where I could start breaking it into OTP apps for the umbr
+ ella project. \n\nI'll cover the thought process of how I broke up the app 
+ and what guidelines I use now when adding new code as to whether add it to 
+ a pre-existing application or to make a new OTP application. I'll share the
+  common code I was able to share between our RPC server and API controllers
+ \, which I believe is a good behaviour for resource module in Phoenix 1.3.
+LAST-MODIFIED:20170208T181233Z
+LOCATION:Norris Conference Centers - Austin\, 2525 W Anderson Ln #365\, Aus
+ tin\, TX 78757\, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Shattering your application into an umbrella project - Luke Imhoff
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H5M0S
+END:VALARM
+END:VEVENT
+END:VCALENDAR
