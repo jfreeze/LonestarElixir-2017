@@ -587,6 +587,18 @@
       </a>
     </div>
 
+    <h2 id="gold-sponsors" class="main">LANYARD</h2>
+
+    <div class="gold-sponsors">
+      <a href="http://appsteam.com">
+        <div class="sponsor">
+          <img alt="Apps Team" src="2017/images/sponsors/Apps-Team-Logo-web.png">
+          <p>
+            Apps Team is a consultancy specializing in building enterprise apps & platforms that drive businesses, most often Drupal or Elixir/Phoenix.
+          </p>
+        </div>
+      </a>
+    </div>
 
     <h2 id="sponsors" class="main">MEDIA</h2>
     <div class="media-sponsors">
