@@ -24,6 +24,7 @@
     </p>
 
     <h1 id="register" class="main">REGISTER</h1>
+    <!--
     <p>
       Tickets are on sale now.
       Purchase an <em>Elixir Advocate</em> ticket by buying
@@ -36,6 +37,7 @@
 
     <h2 class="main"><a class="button hvr-fade hvr-skew"
       href="https://ti.to/elixirconf/lonestar-2017">REGISTER NOW</a></h2>
+    -->
 
     <table>
       <tr>
@@ -92,6 +94,10 @@
             <a class="twitter" href="https://twitter.com/chris_mccord"><img src="/images/Twitter_Logo_Blue/Twitter_Logo_Blue.png">@chris_mccord</a>
             <br>
             <a class="github"  href="https://github.com/chrismccord"><img src="/images/github/GitHub-Mark-120px-plus.png">chrismccord</a>
+            <br>
+            <a class="youtube" target="_blank"
+              href="https://www.youtube.com/watch?v=tMO28ar0lW8&index=1&list=PLE7tQUdRKcyaMEekS1T32hUw19UxzqBEo">
+              <img src="/2017/images/resources/Youtube_icon.png"</img>Watch on Youtube</a>
           </div>
           <h2>Chris McCord</h2>
           <p>
@@ -109,6 +115,10 @@
             <a class="twitter" href="https://twitter.com/mobileoverlord"><img src="/images/Twitter_Logo_Blue/Twitter_Logo_Blue.png">@mobileoverlord</a>
             <br>
             <a class="github"  href="https://github.com/mobileoverlord"><img src="/images/github/GitHub-Mark-120px-plus.png">mobileoverlord</a>
+            <br>
+            <a class="youtube" target="_blank"
+              href="https://www.youtube.com/watch?v=pVHhmqYozOM&index=2&list=PLE7tQUdRKcyaMEekS1T32hUw19UxzqBEo">
+              <img src="/2017/images/resources/Youtube_icon.png"</img>Watch on Youtube</a>
             <a href="/speakers/#schneck"><h2>King of the HIL</h2></a>
           </div>
 
@@ -131,6 +141,10 @@
             <a class="twitter" href="https://twitter.com/pragdave"><img src="/images/Twitter_Logo_Blue/Twitter_Logo_Blue.png">@pragdave</a>
             <br>
             <a class="github"  href="https://github.com/pragdave"><img src="/images/github/GitHub-Mark-120px-plus.png">pragdave</a>
+            <br>
+            <a class="youtube" target="_blank"
+              href="https://www.youtube.com/watch?v=L1-amhlGk7c&index=3&list=PLE7tQUdRKcyaMEekS1T32hUw19UxzqBEo">
+              <img src="/2017/images/resources/Youtube_icon.png"</img>Watch on Youtube</a>
           </div>
           <h2>Dave Thomas</h2>
           <p>
@@ -369,7 +383,12 @@
           </tr>
           <tr>
             <td>4:45-6:00</td>
-            <td><strong>Lightning Talks</strong></td>
+            <td>
+              <strong>Lightning Talks</strong>
+              <a class="youtube" target="_blank"
+                href="https://www.youtube.com/watch?v=MlqgjoRzhPA&index=14&list=PLE7tQUdRKcyaMEekS1T32hUw19UxzqBEo">
+                <img src="/2017/images/resources/Youtube_icon.png"</img>Watch on Youtube</a>
+          </td>
             <%= calendar_cells("/2017/calendars/friday/1645-lightning-talks") %>
           </tr>
         </tbody>
@@ -488,56 +507,6 @@
 
 
 
-    <h1 id="hotel" class="main">HOTEL</h1>
-    <img src="2017/images/resources/hyatt-place.jpg">
-    <h3 class="main">Hyatt Place Austin Arboretum</h3>
-    <p>
-      If you are visiting from out of town, we have arranged
-      a great room for you at the Hyatt Place Austin Arboretum
-      at a great price of just $119 per night.
-    </p>
-
-    <p>
-      While staying at the Hyatt, not only do you get to sleep
-      in the luxurious Hyatt Grand Bed&reg;, Hyatt provides
-      the following FREE amenties:
-    </p>
-
-    <ul>
-      <li>Free Wifi</li>
-      <li>Free Breakfast</li>
-      <li>Free Parking</li>
-      <li>Free Shuttle to the Conference Center</li>
-    </ul>
-
-    <p class="center">
-      <h2 class="main">
-        <a target="_blank" class="button hvr-fade hvr-skew" href="http://austinarboretum.place.hyatt.com/en/hotel/home.html?corp_id=G-LSEC">RESERVE YOUR ROOM</a>
-      </h2>
-    </p>
-
-    <p class="subtext">
-      The conference Hotel is located at the intersection of
-      MoPac/Loop 1 and Highway 183.
-      <br>
-      3612 Tudor Blvd, Austin, TX 78759
-    </p>
-
-    <h1 class="main">VENUE</h1>
-    <p>
-      Lonestar ElixirConf 2017 will be held at
-      <a href="http://norriscenters.com/austin-map/">Norris Conference Center</a>
-      in Austin, TX, February 10-11.
-    </p>
-    <p>
-      Norris Conference Center
-      <br>
-      2525 W. Anderson Lane, Suite 365
-      <br>
-      Austin, Texas 78757
-      <br>
-      (512) 451-5011
-    </p>
 
     <h1 id="sponsors" class="main">SPONSORS</h1>
 
@@ -624,6 +593,60 @@
     </div>
 
     <p style="clear: both">&nbsp;</p>
+
+
+    <h1 id="hotel" class="main">HOTEL</h1>
+    <img src="2017/images/resources/hyatt-place.jpg">
+    <h3 class="main">Hyatt Place Austin Arboretum</h3>
+    <p>
+      If you are visiting from out of town, we have arranged
+      a great room for you at the Hyatt Place Austin Arboretum
+      at a great price of just $119 per night.
+    </p>
+
+    <p>
+      While staying at the Hyatt, not only do you get to sleep
+      in the luxurious Hyatt Grand Bed&reg;, Hyatt provides
+      the following FREE amenties:
+    </p>
+
+    <ul>
+      <li>Free Wifi</li>
+      <li>Free Breakfast</li>
+      <li>Free Parking</li>
+      <li>Free Shuttle to the Conference Center</li>
+    </ul>
+
+    <!--
+    <p class="center">
+      <h2 class="main">
+        <a target="_blank" class="button hvr-fade hvr-skew" href="http://austinarboretum.place.hyatt.com/en/hotel/home.html?corp_id=G-LSEC">RESERVE YOUR ROOM</a>
+      </h2>
+    </p>
+    -->
+
+    <p class="subtext">
+      The conference Hotel is located at the intersection of
+      MoPac/Loop 1 and Highway 183.
+      <br>
+      3612 Tudor Blvd, Austin, TX 78759
+    </p>
+
+    <h1 class="main">VENUE</h1>
+    <p>
+      Lonestar ElixirConf 2017 will be held at
+      <a href="http://norriscenters.com/austin-map/">Norris Conference Center</a>
+      in Austin, TX, February 10-11.
+    </p>
+    <p>
+      Norris Conference Center
+      <br>
+      2525 W. Anderson Lane, Suite 365
+      <br>
+      Austin, Texas 78757
+      <br>
+      (512) 451-5011
+    </p>
   </div>
 
 </div>

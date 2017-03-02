@@ -248,6 +248,11 @@ a.github > img {
   padding: 0 6px;
   vertical-align: middle;
 }
+a.youtube > img {
+  width: 36px;
+  padding: 4px 0px;
+  vertical-align: middle;
+}
 
 .speakers {
   margin: 10px 20px;
