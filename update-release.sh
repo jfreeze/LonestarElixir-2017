@@ -4,7 +4,7 @@
 
 git pull
 mix do deps.get
-node assets/node_modules/brunch/bin/brunch build --production
+(cd assets; node node_modules/brunch/bin/brunch build --production)
 MIX_ENV=prod mix compile
 MIX_ENV=prod mix phx.digest
 MIX_ENV=prod mix release
