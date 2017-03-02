@@ -23,8 +23,8 @@
       and social mixing of Elixir enthusiasts.
     </p>
 
-    <h1 id="register" class="main">REGISTER</h1>
     <!--
+    <h1 id="register" class="main">REGISTER</h1>
     <p>
       Tickets are on sale now.
       Purchase an <em>Elixir Advocate</em> ticket by buying
@@ -37,7 +37,6 @@
 
     <h2 class="main"><a class="button hvr-fade hvr-skew"
       href="https://ti.to/elixirconf/lonestar-2017">REGISTER NOW</a></h2>
-    -->
 
     <table>
       <tr>
@@ -84,6 +83,7 @@
       </p>
     </div>
 
+    -->
 
     <h1 class="main">KEYNOTE SPEAKERS</h1>
     <div class="gridcontainer">
