@@ -1,4 +1,4 @@
-defmodule Lonestarelixir.ConnCase do
+defmodule Lonestarelixir.Web.ConnCase do
   @moduledoc """
   This module defines the test case to be used by
   tests that require setting up a connection.
@@ -25,10 +25,10 @@ defmodule Lonestarelixir.ConnCase do
       import Ecto.Changeset
       import Ecto.Query
 
-      import Lonestarelixir.Router.Helpers
+      import Lonestarelixir.Web.Router.Helpers
 
       # The default endpoint for testing
-      @endpoint Lonestarelixir.Endpoint
+      @endpoint Lonestarelixir.Web.Endpoint
     end
   end
 

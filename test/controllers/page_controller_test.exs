@@ -1,5 +1,5 @@
 defmodule Lonestarelixir.PageControllerTest do
-  use Lonestarelixir.ConnCase
+  use Lonestarelixir.Web.ConnCase
 
   test "GET /", %{conn: conn} do
     conn = get conn, "/"

@@ -10,10 +10,10 @@ use Mix.Config
 #  ecto_repos: [Lonestarelixir.Repo]
 
 # Configures the endpoint
-config :lonestarelixir, Lonestarelixir.Endpoint,
+config :lonestarelixir, Lonestarelixir.Web.Endpoint,
   url: [host: "localhost"],
   secret_key_base: "76ymM0zqnRrqU9Em2hOIWTvwl/U9riCRz74evFTclBHcXBewCELYhl1P5nW2IQ8Z",
-  render_errors: [view: Lonestarelixir.ErrorView, accepts: ~w(html json)],
+  render_errors: [view: Lonestarelixir.Web.ErrorView, accepts: ~w(html json)],
   pubsub: [name: Lonestarelixir.PubSub,
   adapter: Phoenix.PubSub.PG2]
 

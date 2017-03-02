@@ -11,7 +11,7 @@ defmodule Lonestarelixir do
       # Start the Ecto repository
 #      supervisor(Lonestarelixir.Repo, []),
       # Start the endpoint when the application starts
-      supervisor(Lonestarelixir.Endpoint, []),
+      supervisor(Lonestarelixir.Web.Endpoint, []),
       worker(Lonestarelixir.GoogleCalendarParamsCache, [])
     ]
 
@@ -23,8 +23,8 @@ defmodule Lonestarelixir do
 
   # Tell Phoenix to update the endpoint configuration
   # whenever the application is updated.
-  def config_change(changed, _new, removed) do
-    Lonestarelixir.Endpoint.config_change(changed, removed)
-    :ok
-  end
+  # def config_change(changed, _new, removed) do
+  #   Lonestarelixir.Web.Endpoint.config_change(changed, removed)
+  #   :ok
+  # end
 end

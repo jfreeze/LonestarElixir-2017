@@ -1,0 +1,629 @@
+<div class="container">
+  <div class="content">
+    <p>
+      Welcome to the premiere Regional Elixir and Phoenix conference in
+      <strong>Austin, TX, February 10-11</strong>.
+    </p>
+
+    <p>
+      Lonestar Elixir Conf is a conference for Elixir, OTP, Web and
+      Embedded developers. Our focus is on advancing the
+      Elixir programming language and the communities surrounding it.
+      Lonestar ElixirConf brings together developers, from novice to
+      experienced, to discuss, collaborate, and socialize.
+    </p>
+
+    <p>
+      The inaugural conference will host a single-track of speakers,
+      including 12 speakers, 3 keynote speakers, and a lightning
+      talk session.
+    </p>
+    <p>
+      Come for the Elixir knowledge and stay for the parties
+      and social mixing of Elixir enthusiasts.
+    </p>
+
+    <h1 id="register" class="main">REGISTER</h1>
+    <p>
+      Tickets are on sale now.
+      Purchase an <em>Elixir Advocate</em> ticket by buying
+      before the schedule is announced and save.
+    </p>
+    <p>
+      Get your ticket to Lonestar ElixirConf 2017
+      and enjoy two full days of Elixir goodness!
+    </p>
+
+    <h2 class="main"><a class="button hvr-fade hvr-skew"
+      href="https://ti.to/elixirconf/lonestar-2017">REGISTER NOW</a></h2>
+
+    <table>
+      <tr>
+        <th>Ticket</th>
+        <th>Expiration</th>
+        <th>Amount</th>
+      </tr>
+      <tr>
+        <td>Elixir Advocate</td>
+        <td>12/02/2016</td>
+        <td>$325</td>
+      </tr>
+      <tr>
+        <td>Early Bird</td>
+        <td>01/27/2017</td>
+        <td>$365</td>
+      </tr>
+      <tr>
+        <td>Standard</td>
+        <td>02/10/2017</td>
+        <td>$425</td>
+      </tr>
+    </table>
+
+
+    <div class="cancellation">
+      <h2>Cancellation Policy</h2>
+
+      <p>
+        Refunds can only be made to the account that was used in the original transaction.
+        You may cancel your order until 14 January 2017 for a full
+        refund minus the processing fees.
+        Cancellations after 14 January 2017 are refunded as
+        indicated below:
+      </p>
+
+      <ul>
+        <li>50% Refund of ticket price(s): 15 January - 28 January
+        <li>25% Refund of ticket price(s): 29 January - 4 February
+        <li>Non-refundable: After 5 February
+      </ul>
+      <p>
+        Please note that all cancellations, for whatever reason, fall under this policy.
+      </p>
+    </div>
+
+
+    <h1 class="main">KEYNOTE SPEAKERS</h1>
+    <div class="gridcontainer">
+      <div class="gridrow">
+        <div id="mccord" class="one-half column">
+          <img src="2017/images/speakers/chrismccord.jpg">
+          <div class="social">
+            <a class="twitter" href="https://twitter.com/chris_mccord"><img src="/images/Twitter_Logo_Blue/Twitter_Logo_Blue.png">@chris_mccord</a>
+            <br>
+            <a class="github"  href="https://github.com/chrismccord"><img src="/images/github/GitHub-Mark-120px-plus.png">chrismccord</a>
+          </div>
+          <h2>Chris McCord</h2>
+          <p>
+            Chris McCord is a programmer with a passion for science
+            and building things. He spends his time crafting the
+            Phoenix Framework, working with the fine folks at
+            <a href="http://dockyard.com">DockYard</a>, writing books like Metaprogramming Elixir,
+            and teaching others the tools of the trade.
+          </p>
+
+        </div>
+        <div class="one-half column">
+          <img src="2017/images/speakers/justin-schneck.jpg">
+          <div class="social">
+            <a class="twitter" href="https://twitter.com/mobileoverlord"><img src="/images/Twitter_Logo_Blue/Twitter_Logo_Blue.png">@mobileoverlord</a>
+            <br>
+            <a class="github"  href="https://github.com/mobileoverlord"><img src="/images/github/GitHub-Mark-120px-plus.png">mobileoverlord</a>
+            <a href="/speakers/#schneck"><h2>King of the HIL</h2></a>
+          </div>
+
+          <a href="/speakers/#schneck"><h2>Justin Schneck</h2></a>
+          <p>
+            Over the years, Justin has worked on a plethora of
+            embedded projects from iPhone motorcycle starters to
+            advanced brewing and distilling equipment. Recently,
+            Justin founded Metasphere, an embedded software company
+            primarily focused on building Nerves.
+          </p>
+
+        </div>
+      </div>
+
+      <div class="gridrow">
+        <div id="thomas" class="offset-by-one-fourth one-half column">
+          <img src="2017/images/speakers/dave_thomas.png">
+          <div class="social">
+            <a class="twitter" href="https://twitter.com/pragdave"><img src="/images/Twitter_Logo_Blue/Twitter_Logo_Blue.png">@pragdave</a>
+            <br>
+            <a class="github"  href="https://github.com/pragdave"><img src="/images/github/GitHub-Mark-120px-plus.png">pragdave</a>
+          </div>
+          <h2>Dave Thomas</h2>
+          <p>
+            Dave Thomas is a programmer, one of the founders of
+            <a href="https://pragprog.com/">The Pragmatic Bookshelf</a>,
+            noted author of
+            <a href="https://pragprog.com/book/tpp/the-pragmatic-programmer">The Pragmatic Programmer</a>,
+            <a href="https://pragprog.com/book/ruby4/programming-ruby-1-9-2-0">Programming Ruby</a>,
+            and
+            <a href="https://pragprog.com/book/elixir13/programming-elixir-1-3">Programming Elixir</a>,
+            as well as many other books and articles.
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <h1 class="main">SPEAKERS</h1>
+    <div class="gridcontainer">
+      <div class="gridrow">
+
+        <div class="one-third column">
+          <a href="/speakers#cardarella">
+            <img src="/2017/images/speakers/brian-cardarella.jpg">
+            <h3>Brian Cardarella</h3>
+          </a>
+        </div>
+
+        <div class="one-third column">
+          <a href="/speakers#dawson">
+            <img src="/2017/images/speakers/paul-dawson.jpg">
+            <h3>Paul Dawson</h3>
+          </a>
+        </div>
+
+        <div class="one-third column">
+          <a href="/speakers#echavarria">
+            <img src="/2017/images/speakers/ricardo-echavarria.jpg">
+            <h3>Ricardo Echavarria</h3>
+          </a>
+        </div>
+      </div>
+
+      <div class="gridrow">
+
+        <div class="one-third column">
+          <a href="/speakers#gray">
+            <img src="/2017/images/speakers/jeg.jpg">
+            <h3>James Gray</h3>
+          </a>
+        </div>
+
+        <div class="one-third column">
+          <a href="/speakers#imhoff">
+            <img src="/2017/images/speakers/luke-imhoff.jpg">
+            <h3>Luke Imhoff</h3>
+          </a>
+        </div>
+
+        <div class="one-third column">
+          <a href="/speakers#joseph">
+            <img src="/2017/images/speakers/bryan-joseph.jpg">
+            <h3>Bryan Joseph</h3>
+          </a>
+        </div>
+      </div>
+
+      <div class="gridrow">
+        <div class="one-third column">
+          <a href="/speakers#lessel">
+            <img src="/2017/images/speakers/geoffrey-lessel.jpg">
+            <h3>Geoffrey Lessel</h3>
+          </a>
+        </div>
+
+        <div class="one-third column">
+          <a href="/speakers#marx">
+            <img src="/2017/images/speakers/ben-marx.jpg">
+            <h3>Ben Marx</h3>
+          </a>
+        </div>
+
+        <div class="one-third column">
+          <a href="/speakers#mihalich">
+            <img src="/2017/images/speakers/nico-mihalich.jpg">
+            <h3>Nico Mihalich</h3>
+          </a>
+        </div>
+      </div>
+
+      <div class="gridrow">
+
+        <div class="one-third column">
+          <a href="/speakers#selder">
+            <img src="/2017/images/speakers/andrew-selder.jpg">
+            <h3>Andrew Selder</h3>
+          </a>
+        </div>
+
+
+        <div class="one-third column">
+          <a href="/speakers#wintermeyer">
+            <img src="/2017/images/speakers/stefan-wintermeyer.jpg">
+            <h3>Stefan Wintermeyer</h3>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <h1 id="schedule" class="main">
+      SCHEDULE
+      <a href="/2017/calendars/schedule.ics" title="Add all conference sessions to iCal/Outlook">
+        <img class="calendar-icon" src="/images/ical.png" width="32px" height="32px"/>
+      </a>
+    </h1>
+    <div class="gridcontainer">
+      <h2 class="center">
+        FRIDAY
+        <a href="/2017/calendars/friday.ics" title="Add all Friday sessions to iCal/Outlook">
+          <img class="calendar-icon" src="/images/ical.png" width="32px" height="32px"/>
+        </a>
+      </h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Event</th>
+            <th>
+              <img title="iCal .ics files for each session" class="calendar-icon" src="/images/ical.png" width="32px" height="32px"/>
+            </th>
+            <th>
+              <img title="Google Calendar template for each session" class="calendar-icon" src="/images/google-calendar.png" width="32px" height="32px"/>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>7:50-8:50</td>
+            <td>Registration</td>
+            <%= calendar_cells("/2017/calendars/friday/0750-registration") %>
+          </tr>
+          <tr>
+            <td>7:50-8:50</td>
+            <td>
+              <strong>Breakfast</strong><br>
+              <em>
+                All day Hot Beverages including fresh brewed coffee
+                and assorted herbal teas.
+                <br>
+                Juices, yogurts, granola bars,
+                fresh fruit, hot fresh pastries,
+                scones, bagels & chocolate covered donuts!
+              </em>
+            </td>
+            <%= calendar_cells("/2017/calendars/friday/0750-breakfast") %>
+          </tr>
+          <tr>
+            <td>8:50-9:00</td>
+            <td>Welcome</td>
+            <%= calendar_cells("/2017/calendars/friday/0850-welcome") %>
+          </tr>
+          <tr>
+            <td>9:00-10:00</td>
+            <td><strong>KEYNOTE: <a href="/speakers/#schneck">Justin Schneck</a></strong></td>
+            <%= calendar_cells("/2017/calendars/friday/0900-keynote") %>
+          </tr>
+          <tr>
+            <td>10:00-10:30</td>
+            <td><strong>Break</strong></td>
+            <%= calendar_cells("/2017/calendars/friday/1000-break") %>
+          </tr>
+          <tr>
+            <td>10:30-11:15</td>
+            <td>
+              <a href="/speakers/#selder">
+                Andrew Selder:
+                <em>Creating a Nerves-based Status Monitor (or how to sneak Elixir into your company)</em>
+              </a>
+            </td>
+            <%= calendar_cells("/2017/calendars/friday/1030-creating-a-nerves-based-status-monitor") %>
+          </tr>
+          <tr>
+            <td>11:15-12:00</td>
+            <td>
+              <a href="/speakers/#echavarria">
+                Ricardo Echavarria: <em>Raspberry Pi Cluster with the Power of Elixir</em>
+              </a>
+            </td>
+            <%= calendar_cells("/2017/calendars/friday/1115-raspberry-pi-cluster-with-the-power-of-elixir") %>
+          </tr>
+          <tr>
+            <td>12:00-1:30</td>
+            <td>
+              <strong>Lunch</strong><br>
+              <em>
+                BBQ Brisket, Ribs & Chicken (or Vegetarian Burger) with
+                Potato Salad, Cole Slaw, Mac & Cheese,
+                Assorted Desserts & Iced Tea.
+              </em>
+            </td>
+            <%= calendar_cells("/2017/calendars/friday/1200-lunch") %>
+          </tr>
+          <tr>
+            <td>1:30-2:15</td>
+            <td>
+              <a href="/speakers/#gray">James Gray</a> &amp; <a href="/speakers/#dawson">Paul Dawson:</a>
+              <em>The NeverEnding Application</em>
+            </td>
+            <%= calendar_cells("/2017/calendars/friday/1330-the-never-ending-application") %>
+          </tr>
+          <tr>
+            <td>2:15-3:00</td>
+            <td><a href="/speakers/#joseph">Bryan Joseph: <em>Using Elixirscript</em></a></td>
+            <%= calendar_cells("/2017/calendars/friday/1415-using-elixirscript") %>
+          </tr>
+          <tr>
+            <td>3:00-3:30</td>
+            <td><strong>Break</strong><br>
+              <em>
+              Fresh baked cookies, brownies,
+              Chex Mix, Goldfish, & sodas.
+              </em>
+            </td>
+            <%= calendar_cells("/2017/calendars/friday/1500-break") %>
+          </tr>
+          <tr>
+            <td>3:30-4:15</td>
+            <td><a href="/speakers/#lessel">Geoffrey Lessel: <em>Using Ecto outside of Phoenix</em></a></td>
+            <%= calendar_cells("/2017/calendars/friday/1530-using-ecto-outside-of-phoenix") %>
+          </tr>
+          <tr>
+            <td>4:15-4:45</td>
+            <td><strong>Break</strong></td>
+            <%= calendar_cells("/2017/calendars/friday/1615-break") %>
+          </tr>
+          <tr>
+            <td>4:45-6:00</td>
+            <td><strong>Lightning Talks</strong></td>
+            <%= calendar_cells("/2017/calendars/friday/1645-lightning-talks") %>
+          </tr>
+        </tbody>
+      </table>
+      
+      <h2 class="center">
+        SATURDAY
+        <a href="/2017/calendars/saturday.ics" title="Add all Saturday sessions to iCal/Outlook">
+          <img class="calendar-icon" src="/images/ical.png" width="32px" height="32px"/>
+        </a>
+      </h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Event</th>
+            <th>
+              <img title="iCal .ics files for each session" class="calendar-icon" src="/images/ical.png" width="32px" height="32px"/>
+            </th>
+            <th>
+              <img title="Google Calendar template for each session" class="calendar-icon" src="/images/google-calendar.png" width="32px" height="32px"/>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>8:00-9:00</td>
+            <td>
+              <strong>Breakfast</strong><br>
+              <em>
+                All day Hot Beverages including fresh brewed coffee
+                and assorted herbal teas.
+                <br>
+                Juices, yogurts, granola bars,
+                fresh fruit, hot fresh pastries,
+                scones, bagels & chocolate covered donuts!
+              </em>
+            </td>
+            <%= calendar_cells("/2017/calendars/saturday/0800-breakfast") %>
+          </tr>
+          <tr>
+            <td>9:00-10:00</td>
+            <td><a href="/#mccord"><strong>KEYNOTE: Chris McCord</strong></a></td>
+            <%= calendar_cells("/2017/calendars/saturday/0900-keynote") %>
+          </tr>
+          <tr>
+            <td>10:00&#8209;10:30</td>
+            <td><strong>Break</strong></td>
+            <%= calendar_cells("/2017/calendars/saturday/1000-break") %>
+          </tr>
+          <tr>
+            <td>10:30&#8209;11:15</td>
+            <td><a href="/speakers/#wintermeyer">Stefan Wintermeyer: <em>How we build vutuv</em></a></td>
+            <%= calendar_cells("/2017/calendars/saturday/1030-how-we-build-vutuv") %>
+          </tr>
+          <tr>
+            <td>11:15&#8209;12:00</td>
+            <td><a href="/speakers/#marx">Ben Marx: <em>Elixir Adoption at Scale:  A Comprehensive Guide</em></a></td>
+            <%= calendar_cells("/2017/calendars/saturday/1115-elixir-adoption-at-scale") %>
+          </tr>
+          <tr>
+            <td>12:00&#8209;1:30</td>
+            <td>
+              <strong>Lunch</strong><br>
+              <em>
+                Chicken Fried Chicken with country gravy (or Vegetarian Lasagna),
+                Mashed Potatoes, Home-style green beans, Garden Salad,
+                Assorted Desserts & Iced Tea.
+              </em>
+            </td>
+            <%= calendar_cells("/2017/calendars/saturday/1200-lunch") %>
+          </tr>
+          <tr>
+            <td>1:30&#8209;2:15</td>
+            <td><a href="/speakers/#cardarella">Brian Cardarella: <em>Holistically built and tested APIs</em></a></td>
+            <%= calendar_cells("/2017/calendars/saturday/1330-holistically-built-and-tested-apis") %>
+          </tr>
+          <tr>
+            <td>2:15&#8209;3:00</td>
+            <td>
+              <a href="/speakers/#mihalich">Nico Mihalich: <em>Leveling up your Phoenix projects with OTP</em></a>
+            </td>
+            <%= calendar_cells("/2017/calendars/saturday/1415-leveling-up-your-phoenix-projects-with-otp") %>
+          </tr>
+          <tr>
+            <td>3:00&#8209;3:30</td>
+            <td><strong>Break</strong><br>
+              <em>
+                Candy bar & flavored Gourmet Popcorn
+                (‘dill pickle’, ‘mexican hot chocolate’ & ‘smokey BBQ’).
+                Cookies, brownies & sodas.
+              </em>
+            </td>
+            <%= calendar_cells("/2017/calendars/saturday/1500-break") %>
+          </tr>
+          <tr>
+            <td>3:30&#8209;4:15</td>
+            <td>
+              <a href="/speakers/#imhoff">Luke Imhoff: <em>Shattering your application into an umbrella project</em></a>
+            </td>
+            <%= calendar_cells("/2017/calendars/saturday/1530-shattering-your-application-into-an-umbrella-project") %>
+          </tr>
+          <tr>
+            <td>4:15&#8209;4:30</td>
+            <td><strong>Break</strong></td>
+            <%= calendar_cells("/2017/calendars/saturday/1615-break") %>
+          </tr>
+          <tr>
+            <td>4:30&#8209;5:30</td>
+            <td><a href="/#thomas"><strong>KEYNOTE: Dave Thomas</strong></a></td>
+            <%= calendar_cells("/2017/calendars/saturday/1630-keynote") %>
+          </tr>
+        <tbody>
+      </table>
+    </div>
+
+
+
+    <h1 id="hotel" class="main">HOTEL</h1>
+    <img src="2017/images/resources/hyatt-place.jpg">
+    <h3 class="main">Hyatt Place Austin Arboretum</h3>
+    <p>
+      If you are visiting from out of town, we have arranged
+      a great room for you at the Hyatt Place Austin Arboretum
+      at a great price of just $119 per night.
+    </p>
+
+    <p>
+      While staying at the Hyatt, not only do you get to sleep
+      in the luxurious Hyatt Grand Bed&reg;, Hyatt provides
+      the following FREE amenties:
+    </p>
+
+    <ul>
+      <li>Free Wifi</li>
+      <li>Free Breakfast</li>
+      <li>Free Parking</li>
+      <li>Free Shuttle to the Conference Center</li>
+    </ul>
+
+    <p class="center">
+      <h2 class="main">
+        <a target="_blank" class="button hvr-fade hvr-skew" href="http://austinarboretum.place.hyatt.com/en/hotel/home.html?corp_id=G-LSEC">RESERVE YOUR ROOM</a>
+      </h2>
+    </p>
+
+    <p class="subtext">
+      The conference Hotel is located at the intersection of
+      MoPac/Loop 1 and Highway 183.
+      <br>
+      3612 Tudor Blvd, Austin, TX 78759
+    </p>
+
+    <h1 class="main">VENUE</h1>
+    <p>
+      Lonestar ElixirConf 2017 will be held at
+      <a href="http://norriscenters.com/austin-map/">Norris Conference Center</a>
+      in Austin, TX, February 10-11.
+    </p>
+    <p>
+      Norris Conference Center
+      <br>
+      2525 W. Anderson Lane, Suite 365
+      <br>
+      Austin, Texas 78757
+      <br>
+      (512) 451-5011
+    </p>
+
+    <h1 id="sponsors" class="main">SPONSORS</h1>
+
+    <h2 id="gold-sponsors" class="main">GOLD</h2>
+
+    <div class="gold-sponsors">
+      <a href="http://labzero.com/">
+        <div class="sponsor">
+          <img alt="Lab Zero Innovations" src="2017/images/sponsors/labzero.png">
+          <p>
+            Lab Zero Innovations is an experienced team of developers, designers, product owners, and leadership coaches. Founded in 2008, we design and build products for clients ranging from early-stage startups to fortune 10 powerhouses. Companies choose to work with us because of our collaborative culture and our mastery of modern tools.
+          </p>
+        </div>
+      </a>
+    </div>
+
+    <div class="gold-sponsors">
+      <a href="http://inaka.net/">
+        <div class="sponsor">
+          <img alt="Inaka" src="2017/images/sponsors/inaka-logo.png">
+          <p>
+            We are an end-to-end mobile and web app development company, with a focus on building social media and community apps. We have a solid base of clients and a core team of highly skilled developers backed up by expertise from Erlang Solutions - our parent company. Our purpose is to build solutions that really last. We reuse technology where it makes sense, but we are also fast to explore and adopt emerging tech and we are active contributors to the open source community. 
+          </p>
+        </div>
+      </a>
+    </div>
+
+    <div class="gold-sponsors">
+      <a href="https://www.erlang-solutions.com/home.html">
+        <div class="sponsor">
+          <img alt="Erlang Solutions" src="2017/images/sponsors/Erlang-Solutions-logo2.png">
+          <p>
+            Erlang Solutions offers world-class solutions for issues of scale, reliability and performance. We’re a talented team of software experts, passionate about Erlang/OTP & Elixir, and with an unwavering belief in the open-source future. From a wide range of products, on-site/remote consulting, support and mobile development to architecture/code reviews and training - our technical know-how is the backbone to our customers’ business’s operations. We have over 20 years of experience building lightweight, fault tolerant systems for the likes of WhatsApp, T-Mobile, Bleacher Report, Machine Zone and EE. 
+          </p>
+        </div>
+      </a>
+    </div>
+
+    <div class="gold-sponsors">
+      <a href="http://vulk.coop">
+        <div class="sponsor">
+          <img alt="Vulk Coop" src="2017/images/sponsors/logo-full-dark_bkg-web.png">
+          <p>
+            Vulk Coop is a full stack development consultancy based in Austin, TX. Vulk offers a full range of software development services, including design, user interaction/user experience, agile project management and infrastructure scaling. Contributing to the opensource community, mentoring newcomers and actively supporting the Co-operative movement, including hosting the Austin Software Co-operatives monthly meetup, are just a few of Vulk's core values. Whether you are an entrepreneur needing a leg up, a board looking for a strategic partnership, or a freelancer looking for your pack, Vulk wants to build a relationship with you. To learn more, visit vulk.coop/contact.
+          </p>
+        </div>
+      </a>
+    </div>
+
+    <h2 id="gold-sponsors" class="main">LANYARD</h2>
+
+    <div class="gold-sponsors">
+      <a href="http://appsteam.com">
+        <div class="sponsor">
+          <img alt="Apps Team" src="2017/images/sponsors/Apps-Team-Logo-web.png">
+          <p>
+            Apps Team is a consultancy specializing in building enterprise apps & platforms that drive businesses, most often Drupal or Elixir/Phoenix.
+          </p>
+        </div>
+      </a>
+    </div>
+
+    <h2 id="sponsors" class="main">MEDIA</h2>
+    <div class="media-sponsors">
+      <a href="http://bigred.com/">
+        <div class="sponsor">
+          <img alt="Big Red" src="2017/images/sponsors/bigred.png">
+          <p>BigRed.com</p>
+        </div>
+      </a>
+    </div>
+
+    <div class="media-sponsors">
+      <a href="http://www.xyience.com/">
+        <div class="sponsor">
+          <img alt="Xyience" src="2017/images/sponsors/xyience-can.jpg">
+          <p>
+          Xyience - Power to Win<br>
+          Sugar Free. Zero calorie.<br>
+          Vitamin Enhanced.
+          </p>
+        </div>
+      </a>
+    </div>
+
+    <p style="clear: both">&nbsp;</p>
+  </div>
+
+</div>
